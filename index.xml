@@ -1,0 +1,1022 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nicolas Amat</title>
+    <link>https://nicolasAmat.github.io/</link>
+      <atom:link href="https://nicolasAmat.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <description>Nicolas Amat</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2024 Nicolas Amat</copyright><lastBuildDate>Mon, 15 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://nicolasAmat.github.io/images/icon_huc24f511e683ccfafca4c4af3b08000be_143249_512x512_fill_lanczos_center_3.png</url>
+      <title>Nicolas Amat</title>
+      <link>https://nicolasAmat.github.io/</link>
+    </image>
+    
+    <item>
+      <title>Project and Conquer: Fast Quantifier Elimination for Checking Petri Net Reachability</title>
+      <link>https://nicolasAmat.github.io/publication/vmcai_2024/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://nicolasAmat.github.io/publication/vmcai_2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PhD Thesis: A polyhedral Framework for Reachability Problems in Petri Nets</title>
+      <link>https://nicolasAmat.github.io/publication/amat_phd_thesis/</link>
+      <pubDate>Mon, 04 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://nicolasAmat.github.io/publication/amat_phd_thesis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Automated Proof of Polyhedral Abstraction for Petri Nets</title>
+      <link>https://nicolasAmat.github.io/talk/m2f_seminar_2023/</link>
+      <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://nicolasAmat.github.io/talk/m2f_seminar_2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Toolchain to Compute Concurrent Places of Petri Nets</title>
+      <link>https://nicolasAmat.github.io/publication/topnoc/</link>
+      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://nicolasAmat.github.io/publication/topnoc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>What is polyhedral reduction? ...and how we use it to accelerate the verification of reachability problems for Petri nets.</title>
+      <link>https://nicolasAmat.github.io/talk/imdea_2023/</link>
+      <pubDate>Tue, 20 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://nicolasAmat.github.io/talk/imdea_2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Automated Polyhedral Abstraction Proving</title>
+      <link>https://nicolasAmat.github.io/publication/petri_nets_2023/</link>
+      <pubDate>Sat, 27 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://nicolasAmat.github.io/publication/petri_nets_2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Computing Linear Inductive Invariants for Petri Nets using Property Directed Reachability</title>
+      <link>https://nicolasAmat.github.io/talk/afsec_2023/</link>
+      <pubDate>Tue, 11 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://nicolasAmat.github.io/talk/afsec_2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Property Directed Reachability for Generalized Petri Nets</title>
+      <link>https://nicolasAmat.github.io/talk/fac_2023/</link>
+      <pubDate>Wed, 05 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://nicolasAmat.github.io/talk/fac_2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SMPT: A Testbed for Reachability Methods in Generalized Petri Nets</title>
+      <link>https://nicolasAmat.github.io/publication/fm_2023/</link>
+      <pubDate>Fri, 03 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://nicolasAmat.github.io/publication/fm_2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Leveraging polyhedral reductions for solving Petri net reachability problems</title>
+      <link>https://nicolasAmat.github.io/publication/sttt/</link>
+      <pubDate>Thu, 22 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://nicolasAmat.github.io/publication/sttt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Polyhedral Abstraction for Petri nets and its Application to SMT-Based Model Checking</title>
+      <link>https://nicolasAmat.github.io/publication/fi/</link>
+      <pubDate>Mon, 24 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://nicolasAmat.github.io/publication/fi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Computing Linear Inductive Invariants for Petri Nets using Property Directed Reachability</title>
+      <link>https://nicolasAmat.github.io/talk/gt_verif_2022/</link>
+      <pubDate>Tue, 12 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://nicolasAmat.github.io/talk/gt_verif_2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>What is Polyhedral Reduction? ... and how we use it to accelerate the verification of reachability problems</title>
+      <link>https://nicolasAmat.github.io/talk/mtv_seminar_2022/</link>
+      <pubDate>Thu, 07 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://nicolasAmat.github.io/talk/mtv_seminar_2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kong: a Tool to Squash Concurrent Places</title>
+      <link>https://nicolasAmat.github.io/publication/petri_nets_2022/</link>
+      <pubDate>Wed, 22 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://nicolasAmat.github.io/publication/petri_nets_2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Property Directed Reachability for Generalized Petri Nets</title>
+      <link>https://nicolasAmat.github.io/publication/tacas_2022/</link>
+      <pubDate>Wed, 06 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://nicolasAmat.github.io/publication/tacas_2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On the Combination of Polyhedral Abstraction and SMT-Based Model Checking for Petri Nets</title>
+      <link>https://nicolasAmat.github.io/talk/fac_2021/</link>
+      <pubDate>Fri, 15 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://nicolasAmat.github.io/talk/fac_2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Accelerating the Computation of Dead and Concurrent Places Using Reductions</title>
+      <link>https://nicolasAmat.github.io/publication/spin_2021/</link>
+      <pubDate>Mon, 12 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://nicolasAmat.github.io/publication/spin_2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On the Combination of Polyhedral Abstraction and SMT-Based Model Checking for Petri Nets</title>
+      <link>https://nicolasAmat.github.io/publication/petri_nets_2021/</link>
+      <pubDate>Thu, 24 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://nicolasAmat.github.io/publication/petri_nets_2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Une approche polyédrique pour la vérification SMT de réseaux de Petri</title>
+      <link>https://nicolasAmat.github.io/talk/afsec_2021/</link>
+      <pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://nicolasAmat.github.io/talk/afsec_2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Master thesis: A New Approach for the Symbolic Model Checking of Petri nets</title>
+      <link>https://nicolasAmat.github.io/publication/amat_master_thesis/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://nicolasAmat.github.io/publication/amat_master_thesis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kong - Koncurrent Places Grinder</title>
+      <link>https://nicolasAmat.github.io/project/kong/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://nicolasAmat.github.io/project/kong/</guid>
+      <description>&lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;
+&lt;p&gt;Kong is a tool to compute the concurrency relation of a Petri using net reduction. It also permits to compute the dead places and check if a given marking is reachable.&lt;/p&gt;
+&lt;p&gt;For more information about the usage and the compatible formats please refer to the tool paper published at Petri Nets 2022: &lt;a href=&#34;https://hal.laas.fr/hal-03614426/document&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Kong: a Tool to Squash Concurrent Places&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;requirements&#34;&gt;Requirements&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Python &amp;gt;+ 3.5&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;caesar.bdd&lt;/code&gt; from the &lt;a href=&#34;https://cadp.inria.fr/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CADP Toolbox&lt;/a&gt; (only for the &lt;code&gt;conc&lt;/code&gt; and &lt;code&gt;dead&lt;/code&gt; subcommands)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sift&lt;/code&gt; from the &lt;a href=&#34;http://projects.laas.fr/tina/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TINA Toolbox&lt;/a&gt; (only for the &lt;code&gt;reach&lt;/code&gt; subcommand)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;reduce&lt;/code&gt; and &lt;code&gt;ndrio&lt;/code&gt; tools from the &lt;a href=&#34;http://projects.laas.fr/tina/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TINA Toolbox&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;(optional) &lt;a href=&#34;https://pypi.org/project/graphviz/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;graphviz&lt;/a&gt; python package&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;running-the-tool&#34;&gt;Running the Tool&lt;/h2&gt;
+&lt;p&gt;Run &lt;strong&gt;Kong&lt;/strong&gt; by selecting a subcommand (&lt;code&gt;conc&lt;/code&gt; &lt;code&gt;dead&lt;/code&gt;, or &lt;code&gt;reach&lt;/code&gt;) and indicating the path to the input Petri net (&lt;code&gt;.pnml&lt;/code&gt; or &lt;code&gt;.nupn&lt;/code&gt; format):&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$&amp;gt; ./kong/kong.py {conc, dead, reach} {&amp;lt;path_to_.pnml&amp;gt;, &amp;lt;path_to_.nupn&amp;gt;}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;You can list all the subcommands by using the &lt;em&gt;help&lt;/em&gt; option:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$&amp;gt; ./kong/kong.py --help
+usage: kong.py [-h] [--version] {conc,dead,reach} ...
+
+Koncurrent places Grinder
+
+positional arguments:
+  {conc,dead,reach}  Mode
+    conc             Concurrent places computation
+    dead             Dead places computation
+    reach            Marking reachability decision
+
+options:
+  -h, --help         show this help message and exit
+  --version          show the version number and exit
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Similarly, you can list the options of each subcommand.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;conc&lt;/code&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$&amp;gt; ./kong/kong.py conc --help
+usage: kong.py conc [-h] [-v] [-sk] [-sr | -rn REDUCED_NET] [-t] [-srr] [-se] [-dg] [-nu] [-nr] [-pl] [-sn] [--bdd-timeout BDD_TIMEOUT] [--bdd-iterations BDD_ITERATIONS]
+                    [-rm REDUCED_RESULT] [-srm]
+                    filename
+
+positional arguments:
+  filename              input Petri net (.pnml or .nupn format)
+
+options:
+  -h, --help            show this help message and exit
+  -v, --verbose         increase output verbosity
+  -sk, --shrink         use the Shrink reduction tool
+  -sr, --save-reduced-net
+                        save the reduced net
+  -rn REDUCED_NET, --reduced-net REDUCED_NET
+                        specify reduced Petri net (.net format)
+  -t, --time            show the computation time
+  -srr, --show-reduction-ratio
+                        show the reduction ratio
+  -se, --show-equations
+                        show the reduction equations
+  -dg, --draw-graph     draw the Token Flow Graph
+  -nu, --no-units       disable units propagation
+  -nr, --no-rle         disable run-length encoding (RLE)
+  -pl, --place-names    show place names
+  -sn, --show-nupns     show the NUPNs
+  --bdd-timeout BDD_TIMEOUT
+                        set the time limit for marking graph exploration (caesar.bdd)
+  --bdd-iterations BDD_ITERATIONS
+                        set the limit for number of iterations for marking graph exploration (caesar.bdd)
+  -rm REDUCED_RESULT, --reduced-matrix REDUCED_RESULT
+                        specify reduced concurrency matrix (or dead places vector) file
+  -srm, --show-reduced-matrix
+                        show the reduced matrix
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;dead&lt;/code&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$&amp;gt; ./kong/kong.py dead --help
+usage: kong.py dead [-h] [-v] [-sk] [-sr | -rn REDUCED_NET] [-t] [-srr] [-se] [-dg] [-nu] [-nr] [-pl] [-sn] [--bdd-timeout BDD_TIMEOUT] [--bdd-iterations BDD_ITERATIONS]
+                    [-rm REDUCED_RESULT] [-srv]
+                    filename
+
+positional arguments:
+  filename              input Petri net (.pnml or .nupn format)
+
+options:
+  -h, --help            show this help message and exit
+  -v, --verbose         increase output verbosity
+  -sk, --shrink         use the Shrink reduction tool
+  -sr, --save-reduced-net
+                        save the reduced net
+  -rn REDUCED_NET, --reduced-net REDUCED_NET
+                        specify reduced Petri net (.net format)
+  -t, --time            show the computation time
+  -srr, --show-reduction-ratio
+                        show the reduction ratio
+  -se, --show-equations
+                        show the reduction equations
+  -dg, --draw-graph     draw the Token Flow Graph
+  -nu, --no-units       disable units propagation
+  -nr, --no-rle         disable run-length encoding (RLE)
+  -pl, --place-names    show place names
+  -sn, --show-nupns     show the NUPNs
+  --bdd-timeout BDD_TIMEOUT
+                        set the time limit for marking graph exploration (caesar.bdd)
+  --bdd-iterations BDD_ITERATIONS
+                        set the limit for number of iterations for marking graph exploration (caesar.bdd)
+  -rm REDUCED_RESULT, --reduced-vector REDUCED_RESULT
+                        specify reduced dead places vector file
+  -srv, --show-reduced-vector
+                        show the reduced vector
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;reach&lt;/code&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$&amp;gt; ./kong.py reach --help
+usage: kong.py reach [-h] [-v] [-sk] [-sr | -rn REDUCED_NET] [-t] [-srr] [-se] [-dg] [-m MARKING] [-sf] filename
+
+positional arguments:
+  filename              input Petri net (.pnml or .net format)
+
+options:
+  -h, --help            show this help message and exit
+  -v, --verbose         increase output verbosity
+  -sk, --shrink         use the Shrink reduction tool
+  -sr, --save-reduced-net
+                        save the reduced net
+  -rn REDUCED_NET, --reduced-net REDUCED_NET
+                        specify reduced Petri net (.net format)
+  -t, --time            show the computation time
+  -srr, --show-reduction-ratio
+                        show the reduction ratio
+  -se, --show-equations
+                        show the reduction equations
+  -dg, --draw-graph     draw the Token Flow Graph
+  -m MARKING, --marking MARKING
+                        marking
+  -sf, --show-projected-marking
+                        show the projected marking
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;performance-evaluation&#34;&gt;Performance Evaluation&lt;/h2&gt;
+&lt;p&gt;The code repository includes a reproducible performance evaluation in the &lt;code&gt;benchmark/&lt;/code&gt; directory.   (Jupyter notebook is required.)&lt;/p&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Amat, N., Chauvet, L. (2022). Kong: A Tool to Squash Concurrent Places. In: Bernardinello, L., Petrucci, L. (eds) Application and Theory of Petri Nets and Concurrency. PETRI NETS 2022. Lecture Notes in Computer Science, vol 13288. Springer, Cham. &lt;a href=&#34;https://doi.org/10.1007/978-3-031-06653-5_6&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.1007/978-3-031-06653-5_6&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Amat, N., Dal Zilio, S., Le Botlan, D. (2021). Accelerating the Computation of Dead and Concurrent Places Using Reductions. In: Laarman, A., Sokolova, A. (eds) Model Checking Software. SPIN 2021. Lecture Notes in Computer Science(), vol 12864. Springer, Cham. &lt;a href=&#34;https://doi.org/10.1007/978-3-030-84629-9_3&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.1007/978-3-030-84629-9_3&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;dependencies&#34;&gt;Dependencies&lt;/h2&gt;
+&lt;p&gt;The code repository includes a link to models from the &lt;a href=&#34;https://mcc.lip6.fr/index.php&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Model Checking Contest (MCC)&lt;/a&gt; used for benchmarking and
+continuous testing.&lt;/p&gt;
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+&lt;p&gt;This software is distributed under the
+&lt;a href=&#34;https://www.gnu.org/licenses/gpl-3.0.en.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GPLv3&lt;/a&gt; license.
+A copy of the license agreement is found in the &lt;a href=&#34;./LICENSE&#34;&gt;LICENSE&lt;/a&gt; file.&lt;/p&gt;
+&lt;h2 id=&#34;authors&#34;&gt;Authors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Nicolas AMAT&lt;/strong&gt; -  &lt;a href=&#34;https://www.laas.fr/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LAAS/CNRS&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>matrix2pnml</title>
+      <link>https://nicolasAmat.github.io/project/matrix2pnml/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://nicolasAmat.github.io/project/matrix2pnml/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Octant</title>
+      <link>https://nicolasAmat.github.io/project/octant/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://nicolasAmat.github.io/project/octant/</guid>
+      <description>&lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;
+&lt;p&gt;Octant is a pre-processor that can be used to accelerate the verification of
+generalized reachability properties on Petri nets. It takes advantage of
+&lt;em&gt;structural reductions&lt;/em&gt; and work by projecting an &lt;em&gt;initial reachability
+property&lt;/em&gt; into a simpler one, that can be checked on the reduced version of the
+Petri net.&lt;/p&gt;
+&lt;p&gt;The tool is named after the &lt;a href=&#34;https://en.wikipedia.org/wiki/Octant_projection&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Octant map
+projection&lt;/a&gt; proposed by
+Leonardo da Vinci in 1508; the first known example of a polyhedral map
+projection.&lt;/p&gt;
+&lt;p&gt;This project was initially developed inside &lt;a href=&#34;https://github.com/lebotlan/tipx&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TiPX&lt;/a&gt;, a Petri net explorer.&lt;/p&gt;
+&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
+&lt;p&gt;You can build an executable by compiling the project from its source, using the
+accompanying &lt;code&gt;Makefile&lt;/code&gt;. The tool is written in OCaml and uses the Dune build
+system. You can also download the latest build of the tool, compiled for Linux,
+called
+&lt;a href=&#34;https://github.com/nicolasAmat/Octant/blob/linux/octant.exe&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;octant.exe&lt;/code&gt;&lt;/a&gt;, on
+the &amp;ldquo;linux&amp;rdquo; branch of the repository&lt;/p&gt;
+&lt;h2 id=&#34;running-the-tool&#34;&gt;Running the tool&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;./octant.exe command1 command2 ... commandn
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Octant is a CLI tool that operates over its parameters as if they were a
+sequence of commands for a stack-based language. Each command takes its
+arguments from the stack and/or from the command-line.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;p&lt;/code&gt; means &amp;lsquo;pop&amp;rsquo; (stack argument)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;r&lt;/code&gt; means &amp;lsquo;reads a command-line argument&amp;rsquo;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;1&lt;/code&gt; means pushes one value&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;*&lt;/code&gt; means pushes multiple values&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Additionally, a global environment consists in bindings of the form&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;name =&amp;gt; formula&lt;/li&gt;
+&lt;li&gt;name =&amp;gt; bundle (that is: a Petri net, an initial marking, and possibly a tfg).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;environment&#34;&gt;Environment&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;load        : r -&amp;gt; 0&lt;/code&gt;    - (implicit) -  Load the given Petri net, put it as a bundle in the environment with the name &amp;rsquo;net&amp;rsquo;. E.g.: load &amp;ldquo;file.net&amp;rdquo;.&lt;br&gt;
+&lt;code&gt;bind        : rp -&amp;gt; 0&lt;/code&gt;   -  Binds the element on the stack to the given name. E.g.: bind special-net.&lt;br&gt;
+&lt;code&gt;set         : rp -&amp;gt; 0&lt;/code&gt;   -  Synonym to bind.&lt;br&gt;
+&lt;code&gt;get         : r -&amp;gt; 1&lt;/code&gt;    - (implicit) -  Gets the element associated to the given identifier in the environment. Pushes it. E.g.: get special-net.&lt;/p&gt;
+&lt;h3 id=&#34;formulas&#34;&gt;Formulas&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;form        : r -&amp;gt; 1&lt;/code&gt;    -  Parse and push the given formula(s) on the stack (as a list). The reference bundle is the last found in the environment.&lt;br&gt;
+&lt;code&gt;load-forms  : r -&amp;gt; 1&lt;/code&gt;    -  Read formulas from the given file and push them on the stack (as a list). The reference bundle is the last found in the environment.&lt;br&gt;
+&lt;code&gt;project     : p -&amp;gt; 1&lt;/code&gt;    -  Projects a list of formulas (popped from the stack). The reference bundle must have a tfg. Pushes the resulting list of formulas.&lt;br&gt;
+&lt;code&gt;tproject    : rp -&amp;gt; 1&lt;/code&gt;   -  Projects with a time limit.&lt;/p&gt;
+&lt;h3 id=&#34;display&#34;&gt;Display&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;quiet       :  -&amp;gt; 0&lt;/code&gt;     -  Quiet mode (prints only necessary information, e.g. verdicts).&lt;br&gt;
+&lt;code&gt;smt-format  :  -&amp;gt; 0&lt;/code&gt;     -  Use smt-lib format when printing formulas.&lt;br&gt;
+&lt;code&gt;print       : p -&amp;gt; 0&lt;/code&gt;    -  Pops and prints the topmost stack element.&lt;br&gt;
+&lt;code&gt;fprint      : p -&amp;gt; 0&lt;/code&gt;    -  Full print: print the topmost stack element, with details.&lt;br&gt;
+&lt;code&gt;nl          :  -&amp;gt; 0&lt;/code&gt;     -  Prints a blank line (separator).&lt;/p&gt;
+&lt;h3 id=&#34;others&#34;&gt;Others&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;time        :  -&amp;gt; 0&lt;/code&gt;     -  Prints the delay since the previous time command. The first time command does not print anything.&lt;br&gt;
+&lt;code&gt;dup         : p -&amp;gt; 2&lt;/code&gt;    -  Duplicate the argument on top of the stack.&lt;br&gt;
+&lt;code&gt;pop         : p -&amp;gt; 0&lt;/code&gt;    -  Discards the topmost stack element.&lt;br&gt;
+&lt;code&gt;help        :  -&amp;gt; 0&lt;/code&gt;     -  Display this help.&lt;/p&gt;
+&lt;h2 id=&#34;dependencies&#34;&gt;Dependencies&lt;/h2&gt;
+&lt;p&gt;The code repository includes OCaml libraries developed by Didier Le Botlan (outside this project) located inside folder &lt;code&gt;lib/&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+&lt;p&gt;This software is distributed under the
+&lt;a href=&#34;https://www.gnu.org/licenses/gpl-3.0.en.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GPLv3&lt;/a&gt; license.&lt;/p&gt;
+&lt;h2 id=&#34;authors&#34;&gt;Authors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Nicolas Amat - LAAS/CNRS&lt;/li&gt;
+&lt;li&gt;Didier Le Botlan - LAAS/CNRS&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Reductron</title>
+      <link>https://nicolasAmat.github.io/project/reductron/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://nicolasAmat.github.io/project/reductron/</guid>
+      <description>&lt;p&gt;WIP&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Separation Logic Formalization</title>
+      <link>https://nicolasAmat.github.io/project/sepration_logic_formalization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://nicolasAmat.github.io/project/sepration_logic_formalization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SM(P/)T - Satisfiability Modulo Petri Nets</title>
+      <link>https://nicolasAmat.github.io/project/smpt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://nicolasAmat.github.io/project/smpt/</guid>
+      <description>&lt;h2 id=&#34;about&#34;&gt;About&lt;/h2&gt;
+&lt;p&gt;SMPT is a SMT-based model checker for Petri nets focused on &lt;em&gt;reachability&lt;/em&gt;
+problems that takes advantage of net reductions (&lt;em&gt;polyhedral reductions&lt;/em&gt;).&lt;/p&gt;
+&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
+&lt;h3 id=&#34;requirements&#34;&gt;Requirements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Python &amp;gt;= 3.7
+&lt;ul&gt;
+&lt;li&gt;(Optional) &lt;a href=&#34;https://cx-freeze.readthedocs.io/en/latest/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;cx_Freeze&lt;/a&gt; - standalone executables generator&lt;/li&gt;
+&lt;li&gt;(Optional) &lt;a href=&#34;http://mypy-lang.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;mypy&lt;/a&gt; - static type checker&lt;/li&gt;
+&lt;li&gt;(Optional) &lt;a href=&#34;https://www.sphinx-doc.org/en/master/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;sphinx&lt;/a&gt; - Python documentation generator&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Z3Prover/z3&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;z3&lt;/a&gt; - SMT solver&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://projects.laas.fr/tina/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tina toolbox&lt;/a&gt; - Friend tools
+&lt;ul&gt;
+&lt;li&gt;(Optional) &lt;a href=&#34;https://projects.laas.fr/tina/manuals/ndrio.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ndrio&lt;/a&gt; - Petri net converter (&lt;code&gt;.pnml&lt;/code&gt; to &lt;code&gt;.net&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;(Optional) &lt;a href=&#34;https://projects.laas.fr/tina/manuals/reduce.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;reduce&lt;/a&gt; - Petri net reducer
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://projects.laas.fr/tina/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;struct&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/4ti2/4ti2&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;4ti2&lt;/a&gt; or &lt;a href=&#34;https://github.com/latte-int/latte-distro&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LattE integrale&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;(Optional) &lt;a href=&#34;https://projects.laas.fr/tina/manuals/walk.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;walk&lt;/a&gt; - Random state space explorer&lt;/li&gt;
+&lt;li&gt;(Optional) &lt;a href=&#34;https://projects.laas.fr/tina/manuals/tina.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;tina&lt;/a&gt; - State space generator&lt;/li&gt;
+&lt;li&gt;(Optional) &lt;a href=&#34;https://projects.laas.fr/tina/manuals/play.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;play&lt;/a&gt; - Stepper simulator&lt;/li&gt;
+&lt;li&gt;(Optional) &lt;a href=&#34;https://github.com/dalzilio/mcc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;mcc&lt;/a&gt; - Petri net unfolder&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;(Optional) &lt;a href=&#34;https://github.com/nicolasAmat/Octant&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Octant&lt;/a&gt; - Quantifier eliminator for polyhedral reductions&lt;/li&gt;
+&lt;li&gt;(Optional) &lt;a href=&#34;https://www.minizinc.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MiniZinc&lt;/a&gt; - Constraint programming solver&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;installation-script&#34;&gt;Installation script&lt;/h3&gt;
+&lt;p&gt;To automatically install dependencies (except Python packages and MiniZinc) you
+can run the &lt;code&gt;install_dependencies.sh&lt;/code&gt; script.&lt;/p&gt;
+&lt;h3 id=&#34;freezing&#34;&gt;Freezing&lt;/h3&gt;
+&lt;p&gt;The tool can be freezed into standalone executables using
+&lt;a href=&#34;https://cx-freeze.readthedocs.io/en/latest/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;cx_Freeze&lt;/a&gt; by running:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ python3 setup.py build
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;type-checking&#34;&gt;Type checking&lt;/h3&gt;
+&lt;p&gt;The typing of the code can be checked using &lt;a href=&#34;http://mypy-lang.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;mypy&lt;/a&gt; by
+running:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ mypy smpt --no-strict-optional
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;documentation-generation&#34;&gt;Documentation generation&lt;/h3&gt;
+&lt;p&gt;The html documentation can be generated using the sphinx generator by running:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ cd docs
+$ make html
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;running-the-model-checker&#34;&gt;Running the model checker&lt;/h2&gt;
+&lt;h3 id=&#34;input-formats&#34;&gt;Input formats&lt;/h3&gt;
+&lt;p&gt;The tool takes as input descriptions in &lt;code&gt;.pnml&lt;/code&gt; (&lt;a href=&#34;https://www.pnml.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Petri Net Markup
+Language&lt;/a&gt;) and &lt;code&gt;.net&lt;/code&gt; format (textual format for Petri
+nets described in &lt;a href=&#34;http://projects.laas.fr/tina/manuals/formats.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;the
+Tina man pages&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;The path to the input Petri net must be specified using the &lt;code&gt;-n &amp;lt;path&amp;gt;&lt;/code&gt; option.&lt;/p&gt;
+&lt;p&gt;SMPT supports the verification of several kind of reachability properties on Petri nets.&lt;br&gt;
+For instance, the following call can be used to check for the existence of
+deadlocked states on model &lt;code&gt;Kanban-00002.net&lt;/code&gt;.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ python3 -m smpt -n nets/Kanban/Kanban-00002.net --deadlock --methods BMC
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The tools also supports colored Petri nets. In this case, use the option
+&lt;code&gt;--colored&lt;/code&gt; and install the &lt;a href=&#34;https://github.com/dalzilio/mcc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;mcc&lt;/a&gt; tool.&lt;/p&gt;
+&lt;p&gt;The tool supports three main kinds of properties:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Detection of deadlocks, &lt;code&gt;--deadlock&lt;/code&gt;: is there a reachable marking with no
+outgoing transitions.&lt;/li&gt;
+&lt;li&gt;Quasi-liveness, &lt;code&gt;--quasi-liveness t&lt;/code&gt;: is there a reachable marking where
+transition &lt;code&gt;t&lt;/code&gt; can fire. You can check the quasi-liveness of several transitions
+at the same time by passing a comma-separated list of transition names:
+&lt;code&gt;--quasi-liveness t1,...,tn&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Reachability: &lt;code&gt;--reachability p&lt;/code&gt;: is there a reachable marking where place &lt;code&gt;p&lt;/code&gt;
+is marked (it has at least one token). You can check the reachability of several
+places at once by passing a comma-separated list of place names: &lt;code&gt;--reachability p1,...,pn&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The tool also supports properties from the &lt;a href=&#34;https://mcc.lip6.fr/pdf/MCC2020-formula_manual.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MCC properties format&lt;/a&gt;
+by using the option &lt;code&gt;--xml&lt;/code&gt; and indicating the path to the &lt;code&gt;.xml&lt;/code&gt; properties file.
+At this time, the support is restricted to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;--xml GlobalProperties.xml&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;--xml ReachabilityCardinality.xml&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;--xml ReachabilityFireability.xml&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;polyhedral-reductions&#34;&gt;Polyhedral reductions&lt;/h3&gt;
+&lt;p&gt;For methods that relies on polyhedral reductions, it is possible to
+automatically compute the reduction (&lt;code&gt;--auto-reduce&lt;/code&gt;) or to provide a
+pre-computed version with option &lt;code&gt;--reduce &amp;lt;path&amp;gt;&lt;/code&gt;. It is also possible to save
+a copy of the reduced net with the option &lt;code&gt;--save-reduced-net &amp;lt;path&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Some examples of nets with their corresponding reductions are available in
+&lt;code&gt;nets/E-Abstraction/&lt;/code&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;output-format&#34;&gt;Output format&lt;/h3&gt;
+&lt;p&gt;Results are printed in the text format required by the Model Checking Contest
+(MCC) which is of the form:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;FORMULA &amp;lt;id&amp;gt; (TRUE/FALSE)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Some options permits to obtain more information:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;--verbose&lt;/code&gt; or &lt;code&gt;-v&lt;/code&gt;: evolution of the methods&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;--debug&lt;/code&gt;: input/output SMT-LIB exchanged with the SMT solver&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;--show-techniques&lt;/code&gt;: returns the methods that successfully computed a verdict&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;--show-time&lt;/code&gt;: print the execution time per property&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;--show-reduction-ratio&lt;/code&gt;: get the reduction ratio&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;--show-model&lt;/code&gt;: print the counterexample if it exists&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;--check-proof&lt;/code&gt;: check the certificate of invariance (if we have one)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;--export-proof&lt;/code&gt;: export verdict certificates (inductive invariants (SMT-LIB),
+trace leading to counterexamples
+(&lt;a href=&#34;https://projects.laas.fr/tina/manuals/formats.html#14&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;.scn&lt;/code&gt;&lt;/a&gt; format),
+etc.)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;verification-methods&#34;&gt;Verification methods&lt;/h3&gt;
+&lt;p&gt;The tool is composed of different methods:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;INDUCTION&lt;/code&gt;: a basic method that checks if a property is an inductive
+invariant. This property is &lt;em&gt;easy&lt;/em&gt; to check, even though interesting
+properties are seldom inductive.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;BMC&lt;/code&gt;: Bounded Model Checking is an iterative method to explore the state
+space of systems by unrolling their transitions. This method is only useful for
+finding counterexamples.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;K-INDUCTION&lt;/code&gt;: is an extension of BMC that can also prove invariants.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;PDR-COV&lt;/code&gt;, &lt;code&gt;PDR-REACH&lt;/code&gt; and &lt;code&gt;PDR-REACH-SATURATED&lt;/code&gt;: Property Directed
+Reachability, also known as IC3, is a method to strengthen a property that is
+not inductive, into an inductive one. This method can return a verdict
+certificate. We provide three different methods of increasing complexity (cf.
+[TACAS2022]) (one for coverability and two for general reachability).&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;STATE-EQUATION&lt;/code&gt;: is a method for checking that a property is true for all
+&lt;em&gt;potentially reachable markings&lt;/em&gt; (solution of the state equation). We
+implement a refined version that can over-approximate the result with the help
+of trap constraints and other structural information, such as NUPN
+specifications.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;WALK&lt;/code&gt;:  relies on simulation tools to quickly find counterexamples. We
+currently use &lt;code&gt;walk&lt;/code&gt; that is distributed with the &lt;a href=&#34;http://projects.laas.fr/tina/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tina
+toolbox&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;SMT&lt;/code&gt; and &lt;code&gt;CP&lt;/code&gt;:  are methods specific to SMPT in the case where nets are
+&lt;em&gt;fully reducible&lt;/em&gt; (the reduced net has only one marking). In this case,
+reachable markings are exactly the solution of the reduction equations and
+verdicts are computed by solving linear system of equations.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Depending on the input net, SMPT runs a subset of these methods in parallel.&lt;br&gt;
+You can restrict the choice of the verification methods with  &lt;code&gt;--methods &amp;lt;method_1&amp;gt; ... &amp;lt;methods_n&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;--auto-enumerative&lt;/code&gt; and &lt;code&gt;--enumerative &amp;lt;path&amp;gt;&lt;/code&gt; (where the path leads to the
+list of markings into the &lt;a href=&#34;https://projects.laas.fr/tina/manuals/formats.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;.aut format&lt;/a&gt;) perform an
+exhaustive exploration of the state space.&lt;/p&gt;
+&lt;h3 id=&#34;tweaking-options&#34;&gt;Tweaking options&lt;/h3&gt;
+&lt;p&gt;We provide a set of options to control the behavior of our verification jobs scheduler such as:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;--global-timeout &amp;lt;int&amp;gt;&lt;/code&gt;: add a timeout&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;--timeout &amp;lt;int&amp;gt;&lt;/code&gt;: add a timeout per property&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;--mcc&lt;/code&gt;: puts the tool in &lt;em&gt;competition mode&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;usage&#34;&gt;Usage&lt;/h3&gt;
+&lt;p&gt;You can list all the options by using the &lt;em&gt;help&lt;/em&gt; option:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ python3 -m smpt --help
+usage: __main__.py [-h] [--version] [-v] [--debug] -n ptnet [--colored]
+                   [--xml PATH_PROPERTIES | --ltl-file PATH_LTL_FORMULA | --ltl LTL_FORMULA | --deadlock | --quasi-liveness QUASI_LIVE_TRANSITIONS | --reachability REACHABLE_PLACES]
+                   [--select-queries QUERIES]
+                   [--auto-reduce | --reduced PATH_PTNET_REDUCED]
+                   [--save-reduced-net]
+                   (--methods [{WALK,STATE-EQUATION,INDUCTION,BMC,K-INDUCTION,PDR-COV,PDR-REACH,PDR-REACH-SATURATED,SMT,CP,DUMMY} [{WALK,STATE-EQUATION,INDUCTION,BMC,K-INDUCTION,PDR-COV,PDR-REACH,PDR-REACH-SATURATED,SMT,CP,DUMMY} ...]] | --auto-enumerative | --enumerative PATH_MARKINGS)
+                   [--project] [--show-projection]
+                   [--save-projection PATH_PROJECTION_DIRECTORY]
+                   [--timeout TIMEOUT | --global-timeout GLOBAL_TIMEOUT]
+                   [--skip-non-monotonic] [--show-techniques] [--show-time]
+                   [--show-reduction-ratio] [--show-shadow-completeness]
+                   [--show-model] [--check-proof] [--export-proof PATH_PROOF]
+                   [--mcc] [--fireability]
+
+SMPT: Satisfiability Modulo Petri Net
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --version             show the version number and exit
+  -v, --verbose         increase output verbosity
+  --debug               print the SMT-LIB input/output
+  -n ptnet, --net ptnet
+                        path to Petri Net (.net or .pnml format)
+  --colored             colored input Petri net
+  --xml PATH_PROPERTIES
+                        path to reachability formulas (.xml format)
+  --ltl-file PATH_LTL_FORMULA
+                        path to reachability formula (.ltl format)
+  --ltl LTL_FORMULA     reachability formula (.ltl format)
+  --deadlock            deadlock analysis
+  --quasi-liveness QUASI_LIVE_TRANSITIONS
+                        liveness analysis (comma separated list of transition
+                        names)
+  --reachability REACHABLE_PLACES
+                        reachability analysis (comma separated list of place
+                        names)
+  --select-queries QUERIES
+                        verify queries of a given comma-separated list
+  --auto-reduce         reduce automatically the Petri Net (using `reduce`)
+  --reduced PATH_PTNET_REDUCED
+                        path to reduced Petri Net (.net format)
+  --save-reduced-net    save the reduced net
+  --methods [{WALK,STATE-EQUATION,INDUCTION,BMC,K-INDUCTION,PDR-COV,PDR-REACH,PDR-REACH-SATURATED,SMT,CP,DUMMY} [{WALK,STATE-EQUATION,INDUCTION,BMC,K-INDUCTION,PDR-COV,PDR-REACH,PDR-REACH-SATURATED,SMT,CP,DUMMY} ...]]
+                        enable methods among WALK STATE-EQUATION INDUCTION BMC
+                        K-INDUCTION PDR-COV PDR-REACH PDR-REACH-SATURATED SMT
+                        CP DUMMY
+  --auto-enumerative    enumerate automatically the states (using `tina`)
+  --enumerative PATH_MARKINGS
+                        path to the state-space (.aut format)
+  --project             Use TFG projection for WALK, BMC, K-INDUCTION, PDR,
+                        STATE-EQUATION
+  --show-projection     Show projected formulas
+  --save-projection PATH_PROJECTION_DIRECTORY
+                        Save projected formulas
+  --timeout TIMEOUT     a limit per property on execution time
+  --global-timeout GLOBAL_TIMEOUT
+                        a limit on execution time
+  --skip-non-monotonic  skip non-monotonic properties
+  --show-techniques     show the method returning the result
+  --show-time           show the execution time
+  --show-reduction-ratio
+                        show the reduction ratio
+  --show-shadow-completeness
+                        show the shadow completeness
+  --show-model          show a counterexample if there is one
+  --check-proof         check and show the certificate of invariance if there
+                        is one
+  --export-proof PATH_PROOF
+                        export the proof of invariance if there is one
+  --mcc                 Model Checking Contest mode
+  --fireability         Reachability Fireability mode (Cardinality by default)               Model Checking Contest mode
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;disk-images&#34;&gt;Disk images&lt;/h2&gt;
+&lt;p&gt;Complete installations of SMPT can be found in the MCC disk images (see the &lt;a href=&#34;https://mcc.lip6.fr/archives/SubmissionKit-2022.tar.gz&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tool Submission Kit&lt;/a&gt; for more information):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;MCC&#39;2022: &lt;a href=&#34;https://mcc.lip6.fr/archives/smpt-2022.tar.gz&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;smpt-2022.tar.gz&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;MCC&#39;2021: &lt;a href=&#34;https://mcc.lip6.fr/2021/archives/smpt-2021.vmdk.tar.bz2&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;smpt-2021.vmdk.tar.gz&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can also download the artifact of our [TACAS2022] paper that contains all
+the material to install the tool and reproduce the experiments:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://zenodo.org/record/5863379/files/SMPT_TACAS_2022.zip?download=1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SMPT_TACAS_2022.zip&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;awards&#34;&gt;Awards&lt;/h2&gt;
+&lt;p&gt;SMPT, won a bronze medal in the “reachability” category of the Model Checking
+Contest 2023 and 2022, an international competition of model checking tools for the
+verification of concurrent systems. It also obtains the 100% confidence award in 2022.&lt;/p&gt;
+&lt;h2 id=&#34;dependencies&#34;&gt;Dependencies&lt;/h2&gt;
+&lt;p&gt;The code repository includes copies of models taken from the &lt;a href=&#34;https://pnrepository.lip6.fr/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MCC Petri Nets
+Repository&lt;/a&gt; located inside folder  &lt;code&gt;nets/&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+&lt;p&gt;This software is distributed under the
+&lt;a href=&#34;https://www.gnu.org/licenses/gpl-3.0.en.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GPLv3&lt;/a&gt; license.
+A copy of the license agreement is found in the &lt;a href=&#34;./LICENSE&#34;&gt;LICENSE&lt;/a&gt; file.&lt;/p&gt;
+&lt;h2 id=&#34;authors&#34;&gt;Authors&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Nicolas AMAT&lt;/strong&gt; -  &lt;a href=&#34;https://www.laas.fr/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LAAS/CNRS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Bernard BERTHOMIEU&lt;/strong&gt; - &lt;a href=&#34;https://www.laas.fr/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LAAS/CNRS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Silvano DAL ZILIO&lt;/strong&gt; - &lt;a href=&#34;https://www.laas.fr/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LAAS/CNRS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Didier LE BOTLAN&lt;/strong&gt; - &lt;a href=&#34;https://www.laas.fr/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LAAS/CNRS&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We are grateful to Yann THIERRY-MIEG for making &lt;a href=&#34;https://github.com/yanntm/pnmcc-models-2021&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MCC&#39;2021
+oracles&lt;/a&gt; available, and to the
+members of the Model Checking Contest committees.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Sudoku Solver</title>
+      <link>https://nicolasAmat.github.io/project/sudoku_solver/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://nicolasAmat.github.io/project/sudoku_solver/</guid>
+      <description>&lt;h2 id=&#34;usage&#34;&gt;Usage&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;./sudoku_z3_api.py &amp;lt;path_to_grid_file&amp;gt;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;./sudoku_z3_smtlib2.py &amp;lt;path_to_grid_file&amp;gt;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;./sudoku_dpll.py &amp;lt;path_to_grid_file&amp;gt;&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;characteristics-of-solvers&#34;&gt;Characteristics of Solvers&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;./sudoku_z3_api.py&lt;/code&gt;: Solver using Z3 API (slow)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;./sudoku_z3_smtlib2.py&lt;/code&gt;: Solver writting an SMTlib2 file and parsing the output of z3 (fast)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;./sudoku_dpll.py&lt;/code&gt;: Solver with an embedded DPLL solver written by myself (very fast and not using z3)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;grid-format&#34;&gt;Grid Format&lt;/h2&gt;
+&lt;p&gt;Each line represents a value in the initial grid:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;(i, j, value)&lt;/strong&gt; were i, j and value are intergers in 1 .. 9&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;test-grids&#34;&gt;Test Grids&lt;/h2&gt;
+&lt;p&gt;Three grid are available in the directory &lt;code&gt;tests/&lt;/code&gt; to test the different solvers:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;test_sat&lt;/code&gt;: solvable grid&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;test_unsat&lt;/code&gt;: unsolvable grid&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;test_hardest&lt;/code&gt;: very difficult grid made by Arto Inkala and taken from &lt;a href=&#34;https://www.telegraph.co.uk/news/science/science-news/9359579/Worlds-hardest-sudoku-can-you-crack-it.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.telegraph.co.uk/news/science/science-news/9359579/Worlds-hardest-sudoku-can-you-crack-it.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;output-examples&#34;&gt;Output Examples&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Solvable grid (0 represents a missing value):&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&#34;language-text&#34;&gt;Initial grid:
+
+|2|9|0|3|0|8|0|0|0|
+|0|0|6|4|0|0|0|5|0|
+|0|0|0|7|0|0|0|9|0|
+|0|0|1|0|0|0|0|0|8|
+|7|0|0|0|9|0|3|0|0|
+|3|0|0|0|0|0|0|0|5|
+|0|0|0|0|0|2|0|0|6|
+|0|8|0|0|1|0|5|0|0|
+|5|2|0|0|8|0|0|0|0|
+
+Solved grid:
+
+|2|9|4|3|5|8|1|6|7|
+|1|7|6|4|2|9|8|5|3|
+|8|3|5|7|6|1|2|9|4|
+|9|5|1|2|4|3|6|7|8|
+|7|6|2|8|9|5|3|4|1|
+|3|4|8|1|7|6|9|2|5|
+|4|1|9|5|3|2|7|8|6|
+|6|8|7|9|1|4|5|3|2|
+|5|2|3|6|8|7|4|1|9|
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;Unsolvable grid (0 represents a missing value):&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&#34;language-text&#34;&gt;Initial grid:
+
+|2|2|0|3|0|8|0|0|0|
+|0|0|6|4|0|0|0|5|0|
+|0|0|0|7|0|0|0|9|0|
+|0|0|1|0|0|0|0|0|8|
+|7|0|0|0|9|0|3|0|0|
+|3|0|0|0|0|0|0|0|5|
+|0|0|0|0|0|2|0|0|6|
+|0|8|0|0|1|0|5|0|0|
+|5|2|0|0|8|0|0|0|0|
+
+Grid unsolvable!
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>uSMPT</title>
+      <link>https://nicolasAmat.github.io/project/usmpt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://nicolasAmat.github.io/project/usmpt/</guid>
+      <description>&lt;p&gt;The goal of this project is to showcase the application of SMT (Satisfiability Modulo Theories) methods in system verification by developing a Petri net model checker that solves the reachability problem. As a developer, you will have the opportunity to participate in the reachability category of the &lt;a href=&#34;https://mcc.lip6.fr/2023/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Model Checking Contest&lt;/a&gt;, an international competition for model checking tools, and put your skills to the test.&lt;/p&gt;
+&lt;h2 id=&#34;1---theoretical-background&#34;&gt;1 - Theoretical Background&lt;/h2&gt;
+&lt;p&gt;We start by introducing some key concepts that are useful in the context of this project.&lt;/p&gt;
+&lt;h3 id=&#34;11---model-checking-overview&#34;&gt;1.1 - Model Checking Overview&lt;/h3&gt;
+&lt;p&gt;Model Checking is a formal method for checking whether a model of a system meets a given specification. A (property) &lt;em&gt;specification&lt;/em&gt; describes the properties of interest, like for instance the states or events that are forbidden. A &lt;em&gt;model&lt;/em&gt; defines the idealized behavior of the system and how it interacts with the external world. This technique can be used at different stages of systems development (design, architecture, etc.) and, in its simplest form, can be described as an exhaustive exploration of all the states that the system can take. In this project, we focus on &lt;em&gt;reachability properties&lt;/em&gt; (sometimes also called safety properties), meaning properties about the states that the system can reach.&lt;/p&gt;
+&lt;p&gt;Model Checking is composed of three main elements to perform verification:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;A property specification language&lt;/em&gt;, that is a formalism to describe the properties. Different temporal logics can be used, such as LTL (Linear Temporal Logic) or CTL (Computation Tree Logic).&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;A behavioral specification language&lt;/em&gt;, that is a formalism to describe the system and its behavior. A model-checker can work with different formalisms, such as networks of automata, process calculi, Petri net, and many others.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;A verification technique&lt;/em&gt;, that is a method to prove that the system satisfies the given properties or return a counter-example if it is not the case. Besides &amp;ldquo;traditional&amp;rdquo; enumerative or automata-based techniques, two main approaches can be found: a first one based on the use of decision diagrams (such as Binary Decision Diagrams); and a second one based on an encoding into a SAT problem.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;12---petri-nets&#34;&gt;1.2 - Petri Nets&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;Petri nets&lt;/em&gt;, also called &lt;em&gt;Place/Transition (P/T) nets&lt;/em&gt;, are a mathematical model of concurrent systems defined by Carl Adam Petri. The idea is to describe the state of a system using &lt;em&gt;places&lt;/em&gt;, containing tokens. A change of state of the system is represented by &lt;em&gt;transitions&lt;/em&gt;. Places are connected to transitions by &lt;em&gt;arcs&lt;/em&gt;. If a condition on the number of tokens in the &lt;em&gt;inputs places&lt;/em&gt; is met, the transition can &lt;em&gt;fire&lt;/em&gt;, in this case some tokens are removed from the &lt;em&gt;input places&lt;/em&gt;, and some are added to the &lt;em&gt;output places&lt;/em&gt;. Basically, places are a representation of the states, conditions, and resources of a system, while transitions symbolize actions. A complete formalization of Petri nets can be found in &lt;a href=&#34;http://people.disim.univaq.it/~adimarco/teaching/bioinfo15/paper.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[Murata, 1989]&lt;/a&gt;; see also the online resources at the &lt;a href=&#34;https://www2.informatik.uni-hamburg.de/TGI/PetriNets/index.php&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Petri Nets world&lt;/a&gt;.&lt;/p&gt;
+&lt;br /&gt;
+&lt;p align=&#34;center&#34;&gt;
+  &lt;a&gt;
+    &lt;img src=&#34;./net.png&#34; alt=&#34;Logo&#34; width=&#34;397&#34; height=&#34;281&#34;&gt;
+  &lt;/a&gt;
+&lt;/p&gt;
+&lt;h4 id=&#34;121---syntax&#34;&gt;1.2.1 - Syntax&lt;/h4&gt;
+&lt;p&gt;A Petri net $N$ is a 4-tuple $(P, T, \mathrm{Pre}, \mathrm{Post})$ where:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$P = {p_1, \dots, p_n}$ is a finite set of places,&lt;/li&gt;
+&lt;li&gt;$T = {t_1, \dots, t_k}$ is a finite set of transitions disjoint from the set of places $(P \cap T = \emptyset)$,&lt;/li&gt;
+&lt;li&gt;$\mathrm{Pre} : T \rightarrow (P \rightarrow \mathbb{N})$ is the pre-condition function,&lt;/li&gt;
+&lt;li&gt;$\mathrm{Post} : T \rightarrow (P \rightarrow \mathbb{N})$ is the post-condition function.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;122---useful-notations&#34;&gt;1.2.2 - Useful Notations&lt;/h4&gt;
+&lt;p&gt;The &lt;em&gt;pre-set&lt;/em&gt; of a transition $t \in T$ is denoted ${}^{\bullet} t = {p \in P \mid \mathrm{Pre}(t,p) &amp;gt; 0 }$. Symetrically, the &lt;em&gt;post-set&lt;/em&gt; of a transition $t$ is denoted $t^{\bullet} = { p \in P \mid \mathrm{Post}(t,p) &amp;gt; 0 }$. The mappings $\mathrm{Pre}(t,p)$ and $\mathrm{Post}(t,p)$ define the weight of arcs between $p$ and $t$. A Petri net is called &lt;em&gt;ordinary&lt;/em&gt; when the (non-zero) weights on all arcs are equal to $1$.&lt;/p&gt;
+&lt;p&gt;These notations can be extended to the &lt;em&gt;pre-set&lt;/em&gt; and &lt;em&gt;post-set&lt;/em&gt; of a place $p$, with ${}^{\bullet} p = { t \in T \mid \mathrm{Post} (t,p) &amp;gt; 0 }$ and $p^{\bullet} = { t \in T \mid \mathrm{Pre}(t,p) &amp;gt; 0 }$.&lt;/p&gt;
+&lt;p&gt;Given a set of constants $A$, we define the set of &lt;em&gt;finite sequences&lt;/em&gt; on $A$ to be the free monoid $A^\star$, where $\epsilon$ stands for the &amp;ldquo;empty sequence&amp;rdquo;. We will use $s \cdot s&amp;rsquo;$ for the concatenation operation between sequences, that we should often write $s, s&amp;rsquo;$.&lt;/p&gt;
+&lt;h4 id=&#34;123---markings-and-reachability-set&#34;&gt;1.2.3 - Markings and Reachability Set&lt;/h4&gt;
+&lt;p&gt;A marking of a Petri net $(P, T, \mathrm{Pre}, \mathrm{Post})$ is a mapping $m : P \rightarrow \mathbb{N}$, which assigns a number of tokens to each place. Hence $m(p)$ is the number of tokens for place $p$ in $m$. We say that $m$ is a marking over $N$, or even simply a marking over $P$.&lt;/p&gt;
+&lt;p&gt;A marked Petri net is a tuple $(N, m_0)$ where $N$ is a Petri net and $m_0$ is the initial marking.&lt;/p&gt;
+&lt;p&gt;A transition $t \in T$ is &lt;em&gt;fireable&lt;/em&gt; or &lt;em&gt;enabled&lt;/em&gt; in a marking $m \in \mathbb{N}^P$, denoted $m \xrightarrow{t}$, if and only if $m(p) \ge \mathrm{Pre}(t,p)$ for all place $p$ in ${}^{\bullet}t$.&lt;/p&gt;
+&lt;p&gt;A marking $m&amp;rsquo; \in \mathbb{N}^P$ is reachable from a marking $m \in \mathbb{N}^P$ by firing transition $t$, denoted $m \xrightarrow{t} m&amp;rsquo;$, if: (1) transition $t$ is enabled at $m$; and (2) for all place $p$ in P, we have $m&amp;rsquo;(p) = m(p) - \mathrm{Pre}(t,p) + \mathrm{Post}(t,p)$.&lt;/p&gt;
+&lt;p&gt;We say that a &lt;em&gt;firing sequence&lt;/em&gt; $\sigma = t_1, \dots, t_n \in T^*$ can be fired from an initial marking $m_0$, denoted $m_0 \xRightarrow{\sigma} m$, if there exists markings $m_1, \dots, m_n$ such that $m = m_n$ and $m_i \xrightarrow{t_{i+1}}m_{i+1}$ for all $i \in 1..n$. We denote $R(N, m_0)$ the set of markings reachable from $m_0$ in the net $N$.&lt;/p&gt;
+&lt;h4 id=&#34;124---classification-safe-nets&#34;&gt;1.2.4 - Classification: Safe Nets&lt;/h4&gt;
+&lt;p&gt;A marked Petri net $(N, m_0)$ is called &lt;em&gt;safe&lt;/em&gt; when, for all reachable marking $m$ (in $R(N, m_0)$) we have $m(p) \le 1$ for all places $p$ in $P$. In other words, for all reachable markings, the marking of a place is always bounded by $1$.&lt;/p&gt;
+&lt;h3 id=&#34;125---graphical-syntax&#34;&gt;1.2.5 - Graphical syntax&lt;/h3&gt;
+&lt;p&gt;A Petri net can be represented graphically: places are represented by circles, transitions by squares, and arcs by arrows.  Black dots inside a place are used to represent tokens in the marking of a place. In our example, transition $t_0$ is fireable, because place $p_0$ has a token.&lt;/p&gt;
+&lt;h3 id=&#34;13---reachability-formulas&#34;&gt;1.3 - Reachability Formulas&lt;/h3&gt;
+&lt;p&gt;We are interested in the verification of &lt;em&gt;safety properties&lt;/em&gt; over the reachable markings of a marked net $(N, m_0)$, with set of places $P$. Given a formula $F$ with variables in $P$, we say that $F$ is reachable if there exists at least one reachable marking, $m \in R(N, m_0)$, such that $m \models F$. We call such marking a &lt;em&gt;witness&lt;/em&gt; of $F$. Conversly, a formula $G$ is said &lt;em&gt;invariant&lt;/em&gt; if it holds on all the reachable markings of $(N, m_0)$ (or, equivalently, if $\neg G$ is not reachable). Example of properties we can express in this way include: checking if some transition $t$ is enabled (commonly known as quasi-liveness); checking if there is a deadlock; checking whether some linear invariant between places is always true; etc.&lt;/p&gt;
+&lt;h1 id=&#34;2-instructions&#34;&gt;2. Instructions&lt;/h1&gt;
+&lt;p&gt;In the &lt;code&gt;usmpt/&lt;/code&gt; directory you will find all the Python code to build your own model-checker. The parsers and data-structure are already written. Of course, you can modify any part of the code if you feel the need.&lt;/p&gt;
+&lt;h2 id=&#34;21---running-the-tool&#34;&gt;2.1 - Running the Tool&lt;/h2&gt;
+&lt;p&gt;The tool must be runned as a Python package, using the command &lt;code&gt;python3 -m usmpt&lt;/code&gt;. Option &lt;code&gt;--help&lt;/code&gt; will output how to use it:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ python3 -m usmpt --help
+usage: __main__.py [-h] [--version] [-v] [--debug] -n ptnet (-ff PATH_FORMULA | -f FORMULA) --methods
+                   [{STATE-EQUATION,INDUCTION,BMC,K-INDUCTION,DUMMY} ...] [--timeout TIMEOUT] [--show-time] [--show-model]
+
+uSMPT: An environnement to experiment with SMT-based model checking for Petri nets
+
+options:
+  -h, --help            show this help message and exit
+  --version             show the version number and exit
+  -v, --verbose         increase output verbosity
+  --debug               print the SMT-LIB input/output
+  -n ptnet, --net ptnet
+                        path to Petri Net (.net format)
+  -ff PATH_FORMULA, --formula-file PATH_FORMULA
+                        path to reachability formula
+  -f FORMULA, --formula FORMULA
+                        reachability formula
+  --methods [{STATE-EQUATION,INDUCTION,BMC,K-INDUCTION,DUMMY} ...]
+                        enable methods among STATE-EQUATION INDUCTION BMC K-INDUCTION DUMMY
+  --timeout TIMEOUT     a limit on execution time
+  --show-time           show the execution time
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Basically, &lt;code&gt;usmpt&lt;/code&gt; takes as input a Petri net in the &lt;code&gt;.net&lt;/code&gt; format (see &lt;a href=&#34;https://projects.laas.fr/tina/manuals/formats.html#2&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;documentation&lt;/a&gt;), and a formula defined using the following syntax:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;expression&amp;gt; ::= &amp;quot;T&amp;quot; (true) | &amp;quot;F&amp;quot; (false) | &amp;lt;atom&amp;gt; | 
+                  - &amp;lt;expression&amp;gt; (logic negation) | &amp;lt;expression&amp;gt; /\ &amp;lt;expression&amp;gt; (conjunction) | &amp;lt;expression&amp;gt; \/ &amp;lt;expression&amp;gt; (conjunction)
+
+&amp;lt;atom&amp;gt;       ::= &amp;lt;atom&amp;gt; &amp;lt;comparison&amp;gt; &amp;lt;atom&amp;gt;
+
+&amp;lt;member&amp;gt;     ::= &amp;lt;integer&amp;gt; | &amp;lt;place-identifier&amp;gt; | &amp;lt;integer&amp;gt; &amp;quot;*&amp;quot; &amp;lt;place-identifier&amp;gt; | &amp;lt;member&amp;gt; + &amp;lt;member&amp;gt;
+
+&amp;lt;integer&amp;gt;    ::= [0-9]+
+
+&amp;lt;comparison&amp;gt; ::= &amp;quot;&amp;lt;=&amp;quot; | &amp;quot;&amp;gt;=&amp;quot; | &amp;quot;&amp;gt;&amp;quot; | &amp;quot;&amp;lt;&amp;quot; | &amp;quot;=&amp;quot; | &amp;quot;!=&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;When dealing with formulas on safe nets, we restrict the comparison operators to &lt;code&gt;=&lt;/code&gt; and &lt;code&gt;!=&lt;/code&gt; and the semantics of &lt;code&gt;+&lt;/code&gt; corresponds to the logical &lt;code&gt;or&lt;/code&gt;, &lt;code&gt;1&lt;/code&gt; to &lt;code&gt;T&lt;/code&gt; and &lt;code&gt;0&lt;/code&gt; to &lt;code&gt;F&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;You will find some examples of nets and formulas in the &lt;code&gt;nets/&lt;/code&gt; directory, and their graphical representation in the &lt;code&gt;pics/&lt;/code&gt; directory. You can draw, edit and play with the net using the &lt;code&gt;nd&lt;/code&gt; editor from the &lt;a href=&#34;https://projects.laas.fr/tina/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tina toolbox&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Running &lt;code&gt;python3 -m usmpt -n &amp;lt;path_net&amp;gt; -ff &amp;lt;path_formula&amp;gt; -v --methods DUMMY&lt;/code&gt; will output the net and the formula (&lt;code&gt;--methods DUMMY&lt;/code&gt; permits to do not select any method).&lt;/p&gt;
+&lt;p&gt;More generally, the files in the project are organized as follow; only the files with an asterisk &lt;code&gt;(*)&lt;/code&gt; are intended to be modified:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;usmpt/
+
+    smpt.py                 # main script
+
+    ptio/
+        ptnet.py            # Petri net module                                (*)
+        formula.py          # Formula module                                  (*)
+        verdict.py          # Verdict module
+        
+    checkers/
+        abstractchecker.py  # abstract class of model checking methods
+        bmc.py              # template for the Bounded Model Checking method  (*)
+        induction.py        # template for the inductive method               (*)
+        kinduction.py       # template for the k-induction method             (*)
+        stateequation.py    # template for the state-equation method          (*)
+
+    interfaces/
+        solver.py          # abstract class for solver interface
+        z3.py              # interface to the z3 solver
+
+    exec/
+        parallelizer.py    # module to manage the parallel execution of methods
+        utils.py           # some utils for managing process and verbosity
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;During the project you can use any SAT/SMT solver. However, &lt;code&gt;usmpt&lt;/code&gt; already provides an interface with the &lt;a href=&#34;https://github.com/Z3Prover/z3&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;z3 solver&lt;/a&gt;, using the SMT-LIB format. You will find documentation at the end of this file in Appendix.&lt;/p&gt;
+&lt;h2 id=&#34;22---defining-predicates&#34;&gt;2.2 - Defining Predicates&lt;/h2&gt;
+&lt;p&gt;We start by defining a few formulas (on paper first) that ease the subsequent expression of model checking procedures. This will help you with the most delicate point of our encoding, which relies on how to encode sequences of transitions.&lt;/p&gt;
+&lt;p&gt;In the following, we use $\vec{x}$ for the vector of variables $(x_1, \dots, x_n)$, corresponding to the places $p_1, \dots, p_n$ of $P$, and $F(\vec{x})$ for a formula whose variables are included in $\vec{x}$. We say that a mapping[^1] $m$ of $\mathbb{N}^{P}$ is a model of $F$, denoted $m \models F$, if the ground formula $F(m) = F(m(p_1), \dots, m(p_n))$ is true. Hence, we can also interpret $F$ as a predicate over markings.&lt;/p&gt;
+&lt;p&gt;We start by considering that nets are safe. Hence we can work with Boolean variables (a place contains one token or not), and thus Boolean predicates.&lt;/p&gt;
+&lt;table&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align: middle;&#34;&gt;❓&lt;/td&gt;
+&lt;td&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Define the predicate $\underline{m}(\vec{x})$, given a marking $m$, which models exactly $m$ (this predicate admits only one model that is $m$).&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;table&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align: middle;&#34;&gt;❓&lt;/td&gt;
+&lt;td&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Define the predicate $\mathrm{ENBL}_t(\vec{x})$, given a transition $t$, which models exactly the markings that enable $t$.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;p&gt;For the following question, you can define another helper predicate, $\Delta_t(\vec{x}, \vec{x&amp;rsquo;})$ encoding the token displacement from $\vec{x}$ to $\vec{x}&amp;rsquo;$ by firing some transition $t$.&lt;/p&gt;
+&lt;table&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align: middle;&#34;&gt;❓&lt;/td&gt;
+&lt;td&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Define a predicate $\mathrm{T}(\vec{x}, \vec{x}&amp;rsquo;)$ that describes the relation between the markings before $(\vec{x})$ and after $(\vec{x&amp;rsquo;})$ firing a transition. With this convention, formula $\mathrm{T}(\vec{x}, \vec{x}&amp;rsquo;)$ holds if and only if $x \xrightarrow{t} x&amp;rsquo;$ holds for some transition $t$.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;h2 id=&#34;23---implementing-smt-based-model-checking-methods&#34;&gt;2.3 - Implementing SMT-based model checking methods&lt;/h2&gt;
+&lt;p&gt;Our next step is to implement some model checking methods that will make use of the predicate $\mathrm{T}(\vec{x}, \vec{x}&amp;rsquo;)$. To define multiple vectors of variables, namely $\vec{x^0}, \vec{x^1}, \vec{x^2}$, we suggest using &lt;code&gt;@k&lt;/code&gt; as a suffix for each place identifier. It is important to note that the &lt;code&gt;k&lt;/code&gt; parameter is already an argument of the different &lt;code&gt;smtlib&lt;/code&gt; methods.&lt;/p&gt;
+&lt;h3 id=&#34;231---bounded-model-checking-bmc&#34;&gt;2.3.1 - Bounded Model Checking (BMC)&lt;/h3&gt;
+&lt;p&gt;The &lt;em&gt;Bounded Model Checking&lt;/em&gt; analysis method, or &lt;em&gt;BMC&lt;/em&gt; for short, is an iterative method exploring the state-space of finite-state systems by unrolling their transitions &lt;a href=&#34;http://fmv.jku.at/papers/BiereCimattiClarkeZhu-TACAS99.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[Biere et al., 1999]&lt;/a&gt;. The method was originally based on an encoding of transition systems into (a family of) propositional logic formulas and the use of SAT solvers to check these formulas for satisfiability. More recently, this approach was extended to more expressive models, and richer theories, using SMT solvers.&lt;/p&gt;
+&lt;p&gt;In BMC, we try to find a reachable marking $m$ that is a model for a given formula $F$. The algorithm starts by computing a formula, say $\phi_0$, representing the initial marking (hence $\phi_0 \triangleq \underline{m_0}$) and checking whether $\phi_0 \land F$ is satisfiable (meaning $F$ is initially true). If the formula is &lt;em&gt;UNSAT&lt;/em&gt;, we compute a formula $\phi_1$ representing all the markings reachable in one step, or less, from the initial marking and check $\phi_1 \land F$. This way, we compute a sequence of formulas $(\phi_i)&lt;em&gt;{i \in \mathbb{N}}$ until either $\phi_i \land F$ is &lt;em&gt;SAT&lt;/em&gt; (in which case a witness is found) or we have $\phi&lt;/em&gt;{i+1} \Rightarrow \phi_i$ (in which case we reach a fixpoint and no counter-example exists).&lt;/p&gt;
+&lt;p&gt;The BMC method is not complete since it is not possible, in general, to bound the number of iterations needed to give an answer. Also, when the net is unbounded, we may very well have an infinite sequence of formulas $\phi_0 \subsetneq \phi_1 \subsetneq \dots$ However, in practice, this method can be very efficient to find a witness when it exists.&lt;/p&gt;
+&lt;p&gt;The crux of the method is to compute formulas $\phi_i$ that represents the set of markings reachable using firing sequences of length at most $i$. Your goal is to build such formulas incrementally.&lt;/p&gt;
+&lt;table&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align: middle;&#34;&gt;❓&lt;/td&gt;
+&lt;td&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Implement the &lt;code&gt;prove_helper(self) -&amp;gt; int&lt;/code&gt; method of the &lt;code&gt;BMC&lt;/code&gt; class that returns the iteration index if a witness is found.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;p&gt;Note that to run BMC you must select it using &lt;code&gt;--methods BMC&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;We give, below, a brief pseudocode description of the algorithm.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;x   &amp;lt;- freshVariables()
+phi &amp;lt;- m0(x)
+
+while unsat(phi /\ F(x)) {
+    x&#39;  &amp;lt;- freshVariables() 
+    phi &amp;lt;- phi /\ T(x, x&#39;) 
+    x &amp;lt;- x&#39;
+}
+
+return T
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;232---induction&#34;&gt;2.3.2 - Induction&lt;/h3&gt;
+&lt;p&gt;Induction is a basic method that checks if a property is an inductive invariant. This property is &amp;ldquo;easy” to check, even though interesting properties are seldom inductive.&lt;/p&gt;
+&lt;p&gt;To prove that property $F$ is not reachable (no reachable state satisfies $F$), it is sufficient to prove that $\neg F$ is inductive, or equivalently that the following two properties hold:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;$\underline{m_0}(\vec{x}) \land F(\vec{x})$ is &lt;em&gt;UNSAT&lt;/em&gt;; and&lt;/li&gt;
+&lt;li&gt;$\neg F(\vec{x}) \land T(\vec{x}, \vec{x&amp;rsquo;}) \land F(\vec{x&amp;rsquo;})$ is &lt;em&gt;UNSAT&lt;/em&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Note that checking condition (2) is equivalent to proving that $\left ( \neg F(\vec{x}) \land T(\vec{x}, \vec{x}&amp;rsquo;) \right) \Rightarrow \neg F(\vec{x}&amp;rsquo;)$ is a tautology.&lt;/p&gt;
+&lt;table&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align: middle;&#34;&gt;❓&lt;/td&gt;
+&lt;td&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Implement the &lt;code&gt;prove_helper(self) -&amp;gt; Optional[bool]&lt;/code&gt; method of the &lt;code&gt;Induction&lt;/code&gt; class that returns &lt;code&gt;True&lt;/code&gt; if constraint (1) is &lt;em&gt;SAT&lt;/em&gt; (i.e. the initial marking is a model of $F$); returns &lt;code&gt;False&lt;/code&gt; if both constraints (1) and (2) are &lt;em&gt;UNSAT&lt;/em&gt; (i.e. $\neg F$ is an invariant); and returns &lt;code&gt;None&lt;/code&gt; otherwise.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;h3 id=&#34;233---k-induction&#34;&gt;2.3.3 - K-Induction&lt;/h3&gt;
+&lt;p&gt;K-Induction is an extension of the BMC and Induction methods, that can also prove that a formula is not reachable &lt;a href=&#34;https://www.di.ens.fr/~pouzet/cours/mpri/bib/sheeran-FMCAD00.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;[Sheeran et al., 2000]&lt;/a&gt;. Sometimes, $\neg F$ may not be inductive by unrolling only one transition (and so the Induction method will return &lt;code&gt;None&lt;/code&gt;).&lt;/p&gt;
+&lt;p&gt;The algorithm starts by computing a formula $\psi_0(\vec{x_0}, \vec{x_1}) \triangleq \neg F(\vec{x_0}) \land T(\vec{x_0}, \vec{x_1})$, and check whether $\psi_0(\vec{x_0}, \vec{x_1}) \land F(\vec{x_1})$ is &lt;em&gt;UNSAT&lt;/em&gt; or not. If it is &lt;em&gt;UNSAT&lt;/em&gt;, we must ensure that the first iteration (i = 0) of BMC does not find a witness. If not, we proved that $\neg F$ is an invariant with exactly the same queries as the induction method. In the other case, if $\psi_0(\vec{x_0}, \vec{x_1}) \land F(\vec{x_1})$ is &lt;em&gt;SAT&lt;/em&gt;, we continue by unrolling the transitions and computing a formula $\psi_1$ representing the states reachable by firing two transitions consecutively from $\neg F$ as : $\psi_1(\vec{x_0}, \vec{x_1}, \vec{x_2}) \triangleq \psi_0(\vec{x_0}, \vec{x_1}) \land \neg F(\vec{x_1}) \land T(\vec{x_1}, \vec{x_2})$ and check whether $\psi_1 \land F(\vec{x_2})$ is &lt;em&gt;UNSAT&lt;/em&gt; or not.&lt;/p&gt;
+&lt;p&gt;The interconnection between &lt;code&gt;BMC&lt;/code&gt; and &lt;code&gt;KInduction&lt;/code&gt; is already implemented in &lt;code&gt;usmpt&lt;/code&gt; through the attribute &lt;code&gt;induction_queue&lt;/code&gt;. The &lt;code&gt;prove_helper&lt;/code&gt; method of &lt;code&gt;BMC&lt;/code&gt; must manage the result of &lt;code&gt;KInduction&lt;/code&gt; if there is one.&lt;/p&gt;
+&lt;table&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align: middle;&#34;&gt;❓&lt;/td&gt;
+&lt;td&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Implement the &lt;code&gt;def prove_helper(self) -&amp;gt; int&lt;/code&gt; of the &lt;code&gt;KInduction&lt;/code&gt; class, that iteratively constructs the $\psi_i$ formulas and returns $i$ if $\psi_i \land F$ is &lt;em&gt;UNSAT&lt;/em&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;h3 id=&#34;234---state-equation-over-approximation&#34;&gt;2.3.4 - State Equation Over-Approximation&lt;/h3&gt;
+&lt;p&gt;We know propose a method specific to Petri nets. This method relies on the &lt;em&gt;potentially reachable markings&lt;/em&gt;, that are the solutions of $m$ for the system $I \cdot \vec{z} + m_0 = m$, where $\vec{z}$ is a vector of non-negative variables and $I$ is the incidence matrix. The incidence matrix $I$ of a net $N$ is the integer matrix of dimension $|P| \times |T|$ (place-transition) with components $I(p, t) = \mathrm{Post}(t, p) − \mathrm{Pre}(t, p)$, for each place $p$ and each transition $t$. This method (as the previous ones) is still non-complete, but it can help us prove, in some cases, that a formula $F$ is not reachable.&lt;/p&gt;
+&lt;p&gt;This part is left as an open problem, and do not rely on the previous encoding.&lt;/p&gt;
+&lt;table&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align: middle;&#34;&gt;❓&lt;/td&gt;
+&lt;td&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Your goal is to implement the &lt;code&gt;prove_helper(self) -&amp;gt; Optional[bool]&lt;/code&gt; method of the &lt;code&gt;StateEquation&lt;/code&gt; class, that returns &lt;code&gt;False&lt;/code&gt; is the formula has been proved as non-reachable, &lt;code&gt;None&lt;/code&gt; otherwise.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;appendix-using-the-z3-interface-with-the-smt-lib-format&#34;&gt;Appendix: Using the z3 interface with the SMT-LIB Format&lt;/h2&gt;
+&lt;p&gt;SMT-LIB (Satisfiability Modulo Theories LIBrary) is an interface language intended for use by programs designed to solve SMT (Satisfiability Modulo Theories) problems. You can find a complete documentation on the &lt;a href=&#34;https://smtlib.cs.uiowa.edu/papers/smt-lib-reference-v2.6-r2021-05-12.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;official website&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Given a &lt;code&gt;z3&lt;/code&gt; object (attribute &lt;code&gt;solver&lt;/code&gt; in any &lt;code&gt;AbstractChecker&lt;/code&gt; object) you can use several helper methods:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;write(str) -&amp;gt; None&lt;/code&gt;: write some instructions to the solver,&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;reset() -&amp;gt; None&lt;/code&gt;: erase all assertions and declarations,&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;push() -&amp;gt; None&lt;/code&gt;: creates a new scope by saving the current stack size,&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;pop() -&amp;gt; None&lt;/code&gt;: removes any assertion and declaration performed between it and the last &lt;code&gt;push&lt;/code&gt;,&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;check_sat() -&amp;gt; Optional[bool]&lt;/code&gt;: returns if the current stack is satisfiable or not (a result of &lt;code&gt;None&lt;/code&gt; means that there is an error with the stack).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can use option &lt;code&gt;--debug&lt;/code&gt; of &lt;code&gt;usmpt&lt;/code&gt; to display the exchanges between the program and the solver on the standard output.&lt;/p&gt;
+&lt;p&gt;You can try with some SMT-LIB queries on some online platforms such as &lt;a href=&#34;https://jfmc.github.io/z3-play/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Z3 Playground&lt;/a&gt; or &lt;a href=&#34;https://compsys-tools.ens-lyon.fr/z3/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Z3 Online Demonstrator&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;An example of Boolean declarations and SAT assertions:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;; Variable declarations
+(declare-fun a () Bool)
+(declare-fun b () Bool)
+(declare-fun c () Bool)
+
+; Constraints
+(assert (or a b))
+(assert (not (and a c)))
+
+; Solve
+(check-sat)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;An example of Integer declarations and QF-LIA assertions:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;; Variable declarations
+(declare-fun a () Int)
+(declare-fun b () Int)
+(declare-fun c () Int)
+
+; Constraints
+(assert (&amp;gt; a 0))
+(assert (&amp;gt; b 0))
+(assert (&amp;gt; c 0))
+(assert (= (+ a b) (* 2 c)))
+(assert (distinct a c))
+
+; Solve
+(check-sat)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Note that the &lt;code&gt;!=&lt;/code&gt; operator in SMT-LIB is &lt;code&gt;distinct&lt;/code&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;[^1] In the subject, we will use the two notations $A \rightarrow B$ and $B^A$ interchangeably, for the type of mappings from $A$ to $B$.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

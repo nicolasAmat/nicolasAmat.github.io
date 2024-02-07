@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nested-unit Petri nets | Nicolas Amat</title>
+    <link>https://nicolasAmat.github.io/tag/nested-unit-petri-nets/</link>
+      <atom:link href="https://nicolasAmat.github.io/tag/nested-unit-petri-nets/index.xml" rel="self" type="application/rss+xml" />
+    <description>Nested-unit Petri nets</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2024 Nicolas Amat</copyright><lastBuildDate>Fri, 01 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://nicolasAmat.github.io/images/icon_huc24f511e683ccfafca4c4af3b08000be_143249_512x512_fill_lanczos_center_3.png</url>
+      <title>Nested-unit Petri nets</title>
+      <link>https://nicolasAmat.github.io/tag/nested-unit-petri-nets/</link>
+    </image>
+    
+    <item>
+      <title>A Toolchain to Compute Concurrent Places of Petri Nets</title>
+      <link>https://nicolasAmat.github.io/publication/topnoc/</link>
+      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://nicolasAmat.github.io/publication/topnoc/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

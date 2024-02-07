@@ -1,0 +1,1503 @@
+<!DOCTYPE html><html lang="en-us" >
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  
+  
+  <meta name="generator" content="Wowchemy 5.0.0-beta.1 for Hugo">
+  
+
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Nicolas Amat">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="An SMT-based Model Checking Project.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://nicolasAmat.github.io/project/usmpt/">
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#0078D7">
+  
+
+  
+  
+  
+  <script src="/js/mathjax-config.js"></script>
+  
+
+  
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css" integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin="anonymous">
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.2/lazysizes.min.js" integrity="sha512-TmDwFLhg3UA4ZG0Eb4MIyT1O1Mb+Oww5kFG0uHqXsdbyZz9DcvYQhKpGgNkamAI6h2lGGZq2X8ftOJvF/XjTUg==" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+    
+      
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=B612+Mono&family=B612:wght@400;700&family=Jura:wght@400;700&display=swap">
+    
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.min.47011b65252671397c55411077475d0f.css">
+
+  
+
+
+
+
+  
+
+  
+
+
+  
+  
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_huc24f511e683ccfafca4c4af3b08000be_143249_32x32_fill_lanczos_center_3.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_huc24f511e683ccfafca4c4af3b08000be_143249_192x192_fill_lanczos_center_3.png">
+
+  <link rel="canonical" href="https://nicolasAmat.github.io/project/usmpt/">
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="og:site_name" content="Nicolas Amat">
+  <meta property="og:url" content="https://nicolasAmat.github.io/project/usmpt/">
+  <meta property="og:title" content="uSMPT | Nicolas Amat">
+  <meta property="og:description" content="An SMT-based Model Checking Project."><meta property="og:image" content="https://nicolasAmat.github.io/images/icon_huc24f511e683ccfafca4c4af3b08000be_143249_512x512_fill_lanczos_center_3.png">
+  <meta property="twitter:image" content="https://nicolasAmat.github.io/images/icon_huc24f511e683ccfafca4c4af3b08000be_143249_512x512_fill_lanczos_center_3.png"><meta property="og:locale" content="en-us">
+  
+    
+    
+  
+
+  
+
+
+    
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://nicolasAmat.github.io/project/usmpt/"
+  },
+  "headline": "uSMPT",
+  
+  "datePublished": "0001-01-01T00:00:00Z",
+  "dateModified": "0001-01-01T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Nicolas Amat"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Nicolas Amat",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://nicolasAmat.github.io/images/icon_huc24f511e683ccfafca4c4af3b08000be_143249_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "An SMT-based Model Checking Project."
+}
+</script>
+
+  
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>uSMPT | Nicolas Amat</title>
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper  ">
+
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.js"></script>
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">Nicolas Amat</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Nicolas Amat</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#publications"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#projects"><span>Projects</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#talks"><span>Talks</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#teaching"><span>Teaching</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#academic"><span>Academic</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#distinctions"><span>Distinctions</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#experience"><span>Experience</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+          <i class="fas fa-moon" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  </div>
+
+  <div class="page-body">
+    <article class="article article-project">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>uSMPT</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Jan 1, 0001
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/nicolasAmat/uSMPT" target="_blank" rel="noopener">
+    <i class="fab fa-github mr-1"></i>
+    Repository
+  </a>
+
+
+</div>
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <p>The goal of this project is to showcase the application of SMT (Satisfiability Modulo Theories) methods in system verification by developing a Petri net model checker that solves the reachability problem. As a developer, you will have the opportunity to participate in the reachability category of the <a href="https://mcc.lip6.fr/2023/" target="_blank" rel="noopener">Model Checking Contest</a>, an international competition for model checking tools, and put your skills to the test.</p>
+<h2 id="1---theoretical-background">1 - Theoretical Background</h2>
+<p>We start by introducing some key concepts that are useful in the context of this project.</p>
+<h3 id="11---model-checking-overview">1.1 - Model Checking Overview</h3>
+<p>Model Checking is a formal method for checking whether a model of a system meets a given specification. A (property) <em>specification</em> describes the properties of interest, like for instance the states or events that are forbidden. A <em>model</em> defines the idealized behavior of the system and how it interacts with the external world. This technique can be used at different stages of systems development (design, architecture, etc.) and, in its simplest form, can be described as an exhaustive exploration of all the states that the system can take. In this project, we focus on <em>reachability properties</em> (sometimes also called safety properties), meaning properties about the states that the system can reach.</p>
+<p>Model Checking is composed of three main elements to perform verification:</p>
+<ul>
+<li><em>A property specification language</em>, that is a formalism to describe the properties. Different temporal logics can be used, such as LTL (Linear Temporal Logic) or CTL (Computation Tree Logic).</li>
+<li><em>A behavioral specification language</em>, that is a formalism to describe the system and its behavior. A model-checker can work with different formalisms, such as networks of automata, process calculi, Petri net, and many others.</li>
+<li><em>A verification technique</em>, that is a method to prove that the system satisfies the given properties or return a counter-example if it is not the case. Besides &ldquo;traditional&rdquo; enumerative or automata-based techniques, two main approaches can be found: a first one based on the use of decision diagrams (such as Binary Decision Diagrams); and a second one based on an encoding into a SAT problem.</li>
+</ul>
+<h3 id="12---petri-nets">1.2 - Petri Nets</h3>
+<p><em>Petri nets</em>, also called <em>Place/Transition (P/T) nets</em>, are a mathematical model of concurrent systems defined by Carl Adam Petri. The idea is to describe the state of a system using <em>places</em>, containing tokens. A change of state of the system is represented by <em>transitions</em>. Places are connected to transitions by <em>arcs</em>. If a condition on the number of tokens in the <em>inputs places</em> is met, the transition can <em>fire</em>, in this case some tokens are removed from the <em>input places</em>, and some are added to the <em>output places</em>. Basically, places are a representation of the states, conditions, and resources of a system, while transitions symbolize actions. A complete formalization of Petri nets can be found in <a href="http://people.disim.univaq.it/~adimarco/teaching/bioinfo15/paper.pdf" target="_blank" rel="noopener">[Murata, 1989]</a>; see also the online resources at the <a href="https://www2.informatik.uni-hamburg.de/TGI/PetriNets/index.php" target="_blank" rel="noopener">Petri Nets world</a>.</p>
+<br />
+<p align="center">
+  <a>
+    <img src="./net.png" alt="Logo" width="397" height="281">
+  </a>
+</p>
+<h4 id="121---syntax">1.2.1 - Syntax</h4>
+<p>A Petri net $N$ is a 4-tuple $(P, T, \mathrm{Pre}, \mathrm{Post})$ where:</p>
+<ul>
+<li>$P = {p_1, \dots, p_n}$ is a finite set of places,</li>
+<li>$T = {t_1, \dots, t_k}$ is a finite set of transitions disjoint from the set of places $(P \cap T = \emptyset)$,</li>
+<li>$\mathrm{Pre} : T \rightarrow (P \rightarrow \mathbb{N})$ is the pre-condition function,</li>
+<li>$\mathrm{Post} : T \rightarrow (P \rightarrow \mathbb{N})$ is the post-condition function.</li>
+</ul>
+<h4 id="122---useful-notations">1.2.2 - Useful Notations</h4>
+<p>The <em>pre-set</em> of a transition $t \in T$ is denoted ${}^{\bullet} t = {p \in P \mid \mathrm{Pre}(t,p) &gt; 0 }$. Symetrically, the <em>post-set</em> of a transition $t$ is denoted $t^{\bullet} = { p \in P \mid \mathrm{Post}(t,p) &gt; 0 }$. The mappings $\mathrm{Pre}(t,p)$ and $\mathrm{Post}(t,p)$ define the weight of arcs between $p$ and $t$. A Petri net is called <em>ordinary</em> when the (non-zero) weights on all arcs are equal to $1$.</p>
+<p>These notations can be extended to the <em>pre-set</em> and <em>post-set</em> of a place $p$, with ${}^{\bullet} p = { t \in T \mid \mathrm{Post} (t,p) &gt; 0 }$ and $p^{\bullet} = { t \in T \mid \mathrm{Pre}(t,p) &gt; 0 }$.</p>
+<p>Given a set of constants $A$, we define the set of <em>finite sequences</em> on $A$ to be the free monoid $A^\star$, where $\epsilon$ stands for the &ldquo;empty sequence&rdquo;. We will use $s \cdot s&rsquo;$ for the concatenation operation between sequences, that we should often write $s, s&rsquo;$.</p>
+<h4 id="123---markings-and-reachability-set">1.2.3 - Markings and Reachability Set</h4>
+<p>A marking of a Petri net $(P, T, \mathrm{Pre}, \mathrm{Post})$ is a mapping $m : P \rightarrow \mathbb{N}$, which assigns a number of tokens to each place. Hence $m(p)$ is the number of tokens for place $p$ in $m$. We say that $m$ is a marking over $N$, or even simply a marking over $P$.</p>
+<p>A marked Petri net is a tuple $(N, m_0)$ where $N$ is a Petri net and $m_0$ is the initial marking.</p>
+<p>A transition $t \in T$ is <em>fireable</em> or <em>enabled</em> in a marking $m \in \mathbb{N}^P$, denoted $m \xrightarrow{t}$, if and only if $m(p) \ge \mathrm{Pre}(t,p)$ for all place $p$ in ${}^{\bullet}t$.</p>
+<p>A marking $m&rsquo; \in \mathbb{N}^P$ is reachable from a marking $m \in \mathbb{N}^P$ by firing transition $t$, denoted $m \xrightarrow{t} m&rsquo;$, if: (1) transition $t$ is enabled at $m$; and (2) for all place $p$ in P, we have $m&rsquo;(p) = m(p) - \mathrm{Pre}(t,p) + \mathrm{Post}(t,p)$.</p>
+<p>We say that a <em>firing sequence</em> $\sigma = t_1, \dots, t_n \in T^*$ can be fired from an initial marking $m_0$, denoted $m_0 \xRightarrow{\sigma} m$, if there exists markings $m_1, \dots, m_n$ such that $m = m_n$ and $m_i \xrightarrow{t_{i+1}}m_{i+1}$ for all $i \in 1..n$. We denote $R(N, m_0)$ the set of markings reachable from $m_0$ in the net $N$.</p>
+<h4 id="124---classification-safe-nets">1.2.4 - Classification: Safe Nets</h4>
+<p>A marked Petri net $(N, m_0)$ is called <em>safe</em> when, for all reachable marking $m$ (in $R(N, m_0)$) we have $m(p) \le 1$ for all places $p$ in $P$. In other words, for all reachable markings, the marking of a place is always bounded by $1$.</p>
+<h3 id="125---graphical-syntax">1.2.5 - Graphical syntax</h3>
+<p>A Petri net can be represented graphically: places are represented by circles, transitions by squares, and arcs by arrows.  Black dots inside a place are used to represent tokens in the marking of a place. In our example, transition $t_0$ is fireable, because place $p_0$ has a token.</p>
+<h3 id="13---reachability-formulas">1.3 - Reachability Formulas</h3>
+<p>We are interested in the verification of <em>safety properties</em> over the reachable markings of a marked net $(N, m_0)$, with set of places $P$. Given a formula $F$ with variables in $P$, we say that $F$ is reachable if there exists at least one reachable marking, $m \in R(N, m_0)$, such that $m \models F$. We call such marking a <em>witness</em> of $F$. Conversly, a formula $G$ is said <em>invariant</em> if it holds on all the reachable markings of $(N, m_0)$ (or, equivalently, if $\neg G$ is not reachable). Example of properties we can express in this way include: checking if some transition $t$ is enabled (commonly known as quasi-liveness); checking if there is a deadlock; checking whether some linear invariant between places is always true; etc.</p>
+<h1 id="2-instructions">2. Instructions</h1>
+<p>In the <code>usmpt/</code> directory you will find all the Python code to build your own model-checker. The parsers and data-structure are already written. Of course, you can modify any part of the code if you feel the need.</p>
+<h2 id="21---running-the-tool">2.1 - Running the Tool</h2>
+<p>The tool must be runned as a Python package, using the command <code>python3 -m usmpt</code>. Option <code>--help</code> will output how to use it:</p>
+<pre><code>$ python3 -m usmpt --help
+usage: __main__.py [-h] [--version] [-v] [--debug] -n ptnet (-ff PATH_FORMULA | -f FORMULA) --methods
+                   [{STATE-EQUATION,INDUCTION,BMC,K-INDUCTION,DUMMY} ...] [--timeout TIMEOUT] [--show-time] [--show-model]
+
+uSMPT: An environnement to experiment with SMT-based model checking for Petri nets
+
+options:
+  -h, --help            show this help message and exit
+  --version             show the version number and exit
+  -v, --verbose         increase output verbosity
+  --debug               print the SMT-LIB input/output
+  -n ptnet, --net ptnet
+                        path to Petri Net (.net format)
+  -ff PATH_FORMULA, --formula-file PATH_FORMULA
+                        path to reachability formula
+  -f FORMULA, --formula FORMULA
+                        reachability formula
+  --methods [{STATE-EQUATION,INDUCTION,BMC,K-INDUCTION,DUMMY} ...]
+                        enable methods among STATE-EQUATION INDUCTION BMC K-INDUCTION DUMMY
+  --timeout TIMEOUT     a limit on execution time
+  --show-time           show the execution time
+</code></pre>
+<p>Basically, <code>usmpt</code> takes as input a Petri net in the <code>.net</code> format (see <a href="https://projects.laas.fr/tina/manuals/formats.html#2" target="_blank" rel="noopener">documentation</a>), and a formula defined using the following syntax:</p>
+<pre><code>&lt;expression&gt; ::= &quot;T&quot; (true) | &quot;F&quot; (false) | &lt;atom&gt; | 
+                  - &lt;expression&gt; (logic negation) | &lt;expression&gt; /\ &lt;expression&gt; (conjunction) | &lt;expression&gt; \/ &lt;expression&gt; (conjunction)
+
+&lt;atom&gt;       ::= &lt;atom&gt; &lt;comparison&gt; &lt;atom&gt;
+
+&lt;member&gt;     ::= &lt;integer&gt; | &lt;place-identifier&gt; | &lt;integer&gt; &quot;*&quot; &lt;place-identifier&gt; | &lt;member&gt; + &lt;member&gt;
+
+&lt;integer&gt;    ::= [0-9]+
+
+&lt;comparison&gt; ::= &quot;&lt;=&quot; | &quot;&gt;=&quot; | &quot;&gt;&quot; | &quot;&lt;&quot; | &quot;=&quot; | &quot;!=&quot;
+</code></pre>
+<p>When dealing with formulas on safe nets, we restrict the comparison operators to <code>=</code> and <code>!=</code> and the semantics of <code>+</code> corresponds to the logical <code>or</code>, <code>1</code> to <code>T</code> and <code>0</code> to <code>F</code>.</p>
+<p>You will find some examples of nets and formulas in the <code>nets/</code> directory, and their graphical representation in the <code>pics/</code> directory. You can draw, edit and play with the net using the <code>nd</code> editor from the <a href="https://projects.laas.fr/tina/" target="_blank" rel="noopener">Tina toolbox</a>.</p>
+<p>Running <code>python3 -m usmpt -n &lt;path_net&gt; -ff &lt;path_formula&gt; -v --methods DUMMY</code> will output the net and the formula (<code>--methods DUMMY</code> permits to do not select any method).</p>
+<p>More generally, the files in the project are organized as follow; only the files with an asterisk <code>(*)</code> are intended to be modified:</p>
+<pre><code>usmpt/
+
+    smpt.py                 # main script
+
+    ptio/
+        ptnet.py            # Petri net module                                (*)
+        formula.py          # Formula module                                  (*)
+        verdict.py          # Verdict module
+        
+    checkers/
+        abstractchecker.py  # abstract class of model checking methods
+        bmc.py              # template for the Bounded Model Checking method  (*)
+        induction.py        # template for the inductive method               (*)
+        kinduction.py       # template for the k-induction method             (*)
+        stateequation.py    # template for the state-equation method          (*)
+
+    interfaces/
+        solver.py          # abstract class for solver interface
+        z3.py              # interface to the z3 solver
+
+    exec/
+        parallelizer.py    # module to manage the parallel execution of methods
+        utils.py           # some utils for managing process and verbosity
+</code></pre>
+<p>During the project you can use any SAT/SMT solver. However, <code>usmpt</code> already provides an interface with the <a href="https://github.com/Z3Prover/z3" target="_blank" rel="noopener">z3 solver</a>, using the SMT-LIB format. You will find documentation at the end of this file in Appendix.</p>
+<h2 id="22---defining-predicates">2.2 - Defining Predicates</h2>
+<p>We start by defining a few formulas (on paper first) that ease the subsequent expression of model checking procedures. This will help you with the most delicate point of our encoding, which relies on how to encode sequences of transitions.</p>
+<p>In the following, we use $\vec{x}$ for the vector of variables $(x_1, \dots, x_n)$, corresponding to the places $p_1, \dots, p_n$ of $P$, and $F(\vec{x})$ for a formula whose variables are included in $\vec{x}$. We say that a mapping[^1] $m$ of $\mathbb{N}^{P}$ is a model of $F$, denoted $m \models F$, if the ground formula $F(m) = F(m(p_1), \dots, m(p_n))$ is true. Hence, we can also interpret $F$ as a predicate over markings.</p>
+<p>We start by considering that nets are safe. Hence we can work with Boolean variables (a place contains one token or not), and thus Boolean predicates.</p>
+<table><tr><td style="vertical-align: middle;">❓</td>
+<td>
+<blockquote>
+<p>Define the predicate $\underline{m}(\vec{x})$, given a marking $m$, which models exactly $m$ (this predicate admits only one model that is $m$).</p>
+</blockquote>
+</td></tr></table>
+<table><tr><td style="vertical-align: middle;">❓</td>
+<td>
+<blockquote>
+<p>Define the predicate $\mathrm{ENBL}_t(\vec{x})$, given a transition $t$, which models exactly the markings that enable $t$.</p>
+</blockquote>
+</td></tr></table>
+<p>For the following question, you can define another helper predicate, $\Delta_t(\vec{x}, \vec{x&rsquo;})$ encoding the token displacement from $\vec{x}$ to $\vec{x}&rsquo;$ by firing some transition $t$.</p>
+<table><tr><td style="vertical-align: middle;">❓</td>
+<td>
+<blockquote>
+<p>Define a predicate $\mathrm{T}(\vec{x}, \vec{x}&rsquo;)$ that describes the relation between the markings before $(\vec{x})$ and after $(\vec{x&rsquo;})$ firing a transition. With this convention, formula $\mathrm{T}(\vec{x}, \vec{x}&rsquo;)$ holds if and only if $x \xrightarrow{t} x&rsquo;$ holds for some transition $t$.</p>
+</blockquote>
+</td></tr></table>
+<h2 id="23---implementing-smt-based-model-checking-methods">2.3 - Implementing SMT-based model checking methods</h2>
+<p>Our next step is to implement some model checking methods that will make use of the predicate $\mathrm{T}(\vec{x}, \vec{x}&rsquo;)$. To define multiple vectors of variables, namely $\vec{x^0}, \vec{x^1}, \vec{x^2}$, we suggest using <code>@k</code> as a suffix for each place identifier. It is important to note that the <code>k</code> parameter is already an argument of the different <code>smtlib</code> methods.</p>
+<h3 id="231---bounded-model-checking-bmc">2.3.1 - Bounded Model Checking (BMC)</h3>
+<p>The <em>Bounded Model Checking</em> analysis method, or <em>BMC</em> for short, is an iterative method exploring the state-space of finite-state systems by unrolling their transitions <a href="http://fmv.jku.at/papers/BiereCimattiClarkeZhu-TACAS99.pdf" target="_blank" rel="noopener">[Biere et al., 1999]</a>. The method was originally based on an encoding of transition systems into (a family of) propositional logic formulas and the use of SAT solvers to check these formulas for satisfiability. More recently, this approach was extended to more expressive models, and richer theories, using SMT solvers.</p>
+<p>In BMC, we try to find a reachable marking $m$ that is a model for a given formula $F$. The algorithm starts by computing a formula, say $\phi_0$, representing the initial marking (hence $\phi_0 \triangleq \underline{m_0}$) and checking whether $\phi_0 \land F$ is satisfiable (meaning $F$ is initially true). If the formula is <em>UNSAT</em>, we compute a formula $\phi_1$ representing all the markings reachable in one step, or less, from the initial marking and check $\phi_1 \land F$. This way, we compute a sequence of formulas $(\phi_i)<em>{i \in \mathbb{N}}$ until either $\phi_i \land F$ is <em>SAT</em> (in which case a witness is found) or we have $\phi</em>{i+1} \Rightarrow \phi_i$ (in which case we reach a fixpoint and no counter-example exists).</p>
+<p>The BMC method is not complete since it is not possible, in general, to bound the number of iterations needed to give an answer. Also, when the net is unbounded, we may very well have an infinite sequence of formulas $\phi_0 \subsetneq \phi_1 \subsetneq \dots$ However, in practice, this method can be very efficient to find a witness when it exists.</p>
+<p>The crux of the method is to compute formulas $\phi_i$ that represents the set of markings reachable using firing sequences of length at most $i$. Your goal is to build such formulas incrementally.</p>
+<table><tr><td style="vertical-align: middle;">❓</td>
+<td>
+<blockquote>
+<p>Implement the <code>prove_helper(self) -&gt; int</code> method of the <code>BMC</code> class that returns the iteration index if a witness is found.</p>
+</blockquote>
+</td></tr></table>
+<p>Note that to run BMC you must select it using <code>--methods BMC</code>.</p>
+<p>We give, below, a brief pseudocode description of the algorithm.</p>
+<pre><code>x   &lt;- freshVariables()
+phi &lt;- m0(x)
+
+while unsat(phi /\ F(x)) {
+    x'  &lt;- freshVariables() 
+    phi &lt;- phi /\ T(x, x') 
+    x &lt;- x'
+}
+
+return T
+</code></pre>
+<h3 id="232---induction">2.3.2 - Induction</h3>
+<p>Induction is a basic method that checks if a property is an inductive invariant. This property is &ldquo;easy” to check, even though interesting properties are seldom inductive.</p>
+<p>To prove that property $F$ is not reachable (no reachable state satisfies $F$), it is sufficient to prove that $\neg F$ is inductive, or equivalently that the following two properties hold:</p>
+<ol>
+<li>$\underline{m_0}(\vec{x}) \land F(\vec{x})$ is <em>UNSAT</em>; and</li>
+<li>$\neg F(\vec{x}) \land T(\vec{x}, \vec{x&rsquo;}) \land F(\vec{x&rsquo;})$ is <em>UNSAT</em>.</li>
+</ol>
+<p>Note that checking condition (2) is equivalent to proving that $\left ( \neg F(\vec{x}) \land T(\vec{x}, \vec{x}&rsquo;) \right) \Rightarrow \neg F(\vec{x}&rsquo;)$ is a tautology.</p>
+<table><tr><td style="vertical-align: middle;">❓</td>
+<td>
+<blockquote>
+<p>Implement the <code>prove_helper(self) -&gt; Optional[bool]</code> method of the <code>Induction</code> class that returns <code>True</code> if constraint (1) is <em>SAT</em> (i.e. the initial marking is a model of $F$); returns <code>False</code> if both constraints (1) and (2) are <em>UNSAT</em> (i.e. $\neg F$ is an invariant); and returns <code>None</code> otherwise.</p>
+</blockquote>
+</td></tr></table>
+<h3 id="233---k-induction">2.3.3 - K-Induction</h3>
+<p>K-Induction is an extension of the BMC and Induction methods, that can also prove that a formula is not reachable <a href="https://www.di.ens.fr/~pouzet/cours/mpri/bib/sheeran-FMCAD00.pdf" target="_blank" rel="noopener">[Sheeran et al., 2000]</a>. Sometimes, $\neg F$ may not be inductive by unrolling only one transition (and so the Induction method will return <code>None</code>).</p>
+<p>The algorithm starts by computing a formula $\psi_0(\vec{x_0}, \vec{x_1}) \triangleq \neg F(\vec{x_0}) \land T(\vec{x_0}, \vec{x_1})$, and check whether $\psi_0(\vec{x_0}, \vec{x_1}) \land F(\vec{x_1})$ is <em>UNSAT</em> or not. If it is <em>UNSAT</em>, we must ensure that the first iteration (i = 0) of BMC does not find a witness. If not, we proved that $\neg F$ is an invariant with exactly the same queries as the induction method. In the other case, if $\psi_0(\vec{x_0}, \vec{x_1}) \land F(\vec{x_1})$ is <em>SAT</em>, we continue by unrolling the transitions and computing a formula $\psi_1$ representing the states reachable by firing two transitions consecutively from $\neg F$ as : $\psi_1(\vec{x_0}, \vec{x_1}, \vec{x_2}) \triangleq \psi_0(\vec{x_0}, \vec{x_1}) \land \neg F(\vec{x_1}) \land T(\vec{x_1}, \vec{x_2})$ and check whether $\psi_1 \land F(\vec{x_2})$ is <em>UNSAT</em> or not.</p>
+<p>The interconnection between <code>BMC</code> and <code>KInduction</code> is already implemented in <code>usmpt</code> through the attribute <code>induction_queue</code>. The <code>prove_helper</code> method of <code>BMC</code> must manage the result of <code>KInduction</code> if there is one.</p>
+<table><tr><td style="vertical-align: middle;">❓</td>
+<td>
+<blockquote>
+<p>Implement the <code>def prove_helper(self) -&gt; int</code> of the <code>KInduction</code> class, that iteratively constructs the $\psi_i$ formulas and returns $i$ if $\psi_i \land F$ is <em>UNSAT</em>.</p>
+</blockquote>
+</td></tr></table>
+<h3 id="234---state-equation-over-approximation">2.3.4 - State Equation Over-Approximation</h3>
+<p>We know propose a method specific to Petri nets. This method relies on the <em>potentially reachable markings</em>, that are the solutions of $m$ for the system $I \cdot \vec{z} + m_0 = m$, where $\vec{z}$ is a vector of non-negative variables and $I$ is the incidence matrix. The incidence matrix $I$ of a net $N$ is the integer matrix of dimension $|P| \times |T|$ (place-transition) with components $I(p, t) = \mathrm{Post}(t, p) − \mathrm{Pre}(t, p)$, for each place $p$ and each transition $t$. This method (as the previous ones) is still non-complete, but it can help us prove, in some cases, that a formula $F$ is not reachable.</p>
+<p>This part is left as an open problem, and do not rely on the previous encoding.</p>
+<table><tr><td style="vertical-align: middle;">❓</td>
+<td>
+<blockquote>
+<p>Your goal is to implement the <code>prove_helper(self) -&gt; Optional[bool]</code> method of the <code>StateEquation</code> class, that returns <code>False</code> is the formula has been proved as non-reachable, <code>None</code> otherwise.</p>
+</blockquote>
+</td></tr></table>
+<hr>
+<h2 id="appendix-using-the-z3-interface-with-the-smt-lib-format">Appendix: Using the z3 interface with the SMT-LIB Format</h2>
+<p>SMT-LIB (Satisfiability Modulo Theories LIBrary) is an interface language intended for use by programs designed to solve SMT (Satisfiability Modulo Theories) problems. You can find a complete documentation on the <a href="https://smtlib.cs.uiowa.edu/papers/smt-lib-reference-v2.6-r2021-05-12.pdf" target="_blank" rel="noopener">official website</a>.</p>
+<p>Given a <code>z3</code> object (attribute <code>solver</code> in any <code>AbstractChecker</code> object) you can use several helper methods:</p>
+<ul>
+<li><code>write(str) -&gt; None</code>: write some instructions to the solver,</li>
+<li><code>reset() -&gt; None</code>: erase all assertions and declarations,</li>
+<li><code>push() -&gt; None</code>: creates a new scope by saving the current stack size,</li>
+<li><code>pop() -&gt; None</code>: removes any assertion and declaration performed between it and the last <code>push</code>,</li>
+<li><code>check_sat() -&gt; Optional[bool]</code>: returns if the current stack is satisfiable or not (a result of <code>None</code> means that there is an error with the stack).</li>
+</ul>
+<p>You can use option <code>--debug</code> of <code>usmpt</code> to display the exchanges between the program and the solver on the standard output.</p>
+<p>You can try with some SMT-LIB queries on some online platforms such as <a href="https://jfmc.github.io/z3-play/" target="_blank" rel="noopener">Z3 Playground</a> or <a href="https://compsys-tools.ens-lyon.fr/z3/" target="_blank" rel="noopener">Z3 Online Demonstrator</a>.</p>
+<p>An example of Boolean declarations and SAT assertions:</p>
+<pre><code>; Variable declarations
+(declare-fun a () Bool)
+(declare-fun b () Bool)
+(declare-fun c () Bool)
+
+; Constraints
+(assert (or a b))
+(assert (not (and a c)))
+
+; Solve
+(check-sat)
+</code></pre>
+<p>An example of Integer declarations and QF-LIA assertions:</p>
+<pre><code>; Variable declarations
+(declare-fun a () Int)
+(declare-fun b () Int)
+(declare-fun c () Int)
+
+; Constraints
+(assert (&gt; a 0))
+(assert (&gt; b 0))
+(assert (&gt; c 0))
+(assert (= (+ a b) (* 2 c)))
+(assert (distinct a c))
+
+; Solve
+(check-sat)
+</code></pre>
+<p>Note that the <code>!=</code> operator in SMT-LIB is <code>distinct</code>.</p>
+<hr>
+<p>[^1] In the subject, we will use the two notations $A \rightarrow B$ and $B^A$ interchangeably, for the type of mappings from $A$ to $B$.</p>
+
+    </div>
+
+    
+
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/teaching/">Teaching</a>
+  
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://nicolasAmat.github.io/"><img class="avatar mr-3 avatar-square" src="/authors/admin/avatar_hu2fac10e3a26274134a735af594535614_19025_270x270_fill_lanczos_center_3.png" alt="Nicolas Amat"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://nicolasAmat.github.io/">Nicolas Amat</a></h5>
+      <h6 class="card-subtitle">Postdoctoral researcher</h6>
+      <p class="card-text">Postdoctal researcher at the IMDEA Software Institute on Presburger arithmetic.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/nicolasAmat" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/nicolas-amat-830252177" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/NicolasAmat5" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+    <div class="project-related-pages content-widget-hr">
+      
+      
+
+      
+      
+      
+
+      
+      
+      
+
+      
+      
+      
+    </div>
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    © 2024 Nicolas Amat
+  </p>
+
+  
+  
+
+
+
+
+
+
+
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+      
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/python.min.js"></script>
+        
+      
+
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.js" integrity="sha512-SeiQaaDh73yrb56sTW/RgVdi/mMqNeM2oBwubFHagc5BkixSpP1fvqF47mKzPGWYSSy4RwbBunrJBQ4Co8fRWA==" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks",
+        'slides' : "Slides"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/wowchemy.min.e09d59f9a09ee47a9d1ef1dde8dcc594.js"></script>
+
+    
+
+
+
+
+
+
+</body>
+</html>

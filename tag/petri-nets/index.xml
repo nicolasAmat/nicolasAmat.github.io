@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Petri nets | Nicolas Amat</title>
+    <link>https://nicolasAmat.github.io/tag/petri-nets/</link>
+      <atom:link href="https://nicolasAmat.github.io/tag/petri-nets/index.xml" rel="self" type="application/rss+xml" />
+    <description>Petri nets</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2024 Nicolas Amat</copyright><lastBuildDate>Mon, 15 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://nicolasAmat.github.io/images/icon_huc24f511e683ccfafca4c4af3b08000be_143249_512x512_fill_lanczos_center_3.png</url>
+      <title>Petri nets</title>
+      <link>https://nicolasAmat.github.io/tag/petri-nets/</link>
+    </image>
+    
+    <item>
+      <title>Project and Conquer: Fast Quantifier Elimination for Checking Petri Net Reachability</title>
+      <link>https://nicolasAmat.github.io/publication/vmcai_2024/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://nicolasAmat.github.io/publication/vmcai_2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Automated Polyhedral Abstraction Proving</title>
+      <link>https://nicolasAmat.github.io/publication/petri_nets_2023/</link>
+      <pubDate>Sat, 27 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://nicolasAmat.github.io/publication/petri_nets_2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SMPT: A Testbed for Reachability Methods in Generalized Petri Nets</title>
+      <link>https://nicolasAmat.github.io/publication/fm_2023/</link>
+      <pubDate>Fri, 03 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://nicolasAmat.github.io/publication/fm_2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Leveraging polyhedral reductions for solving Petri net reachability problems</title>
+      <link>https://nicolasAmat.github.io/publication/sttt/</link>
+      <pubDate>Thu, 22 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://nicolasAmat.github.io/publication/sttt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Polyhedral Abstraction for Petri nets and its Application to SMT-Based Model Checking</title>
+      <link>https://nicolasAmat.github.io/publication/fi/</link>
+      <pubDate>Mon, 24 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://nicolasAmat.github.io/publication/fi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kong: a Tool to Squash Concurrent Places</title>
+      <link>https://nicolasAmat.github.io/publication/petri_nets_2022/</link>
+      <pubDate>Wed, 22 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://nicolasAmat.github.io/publication/petri_nets_2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Property Directed Reachability for Generalized Petri Nets</title>
+      <link>https://nicolasAmat.github.io/publication/tacas_2022/</link>
+      <pubDate>Wed, 06 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://nicolasAmat.github.io/publication/tacas_2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Accelerating the Computation of Dead and Concurrent Places Using Reductions</title>
+      <link>https://nicolasAmat.github.io/publication/spin_2021/</link>
+      <pubDate>Mon, 12 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://nicolasAmat.github.io/publication/spin_2021/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

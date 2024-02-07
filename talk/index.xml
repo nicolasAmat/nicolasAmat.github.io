@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Talks | Nicolas Amat</title>
+    <link>https://nicolasAmat.github.io/talk/</link>
+      <atom:link href="https://nicolasAmat.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
+    <description>Talks</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2024 Nicolas Amat</copyright><lastBuildDate>Tue, 24 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://nicolasAmat.github.io/images/icon_huc24f511e683ccfafca4c4af3b08000be_143249_512x512_fill_lanczos_center_3.png</url>
+      <title>Talks</title>
+      <link>https://nicolasAmat.github.io/talk/</link>
+    </image>
+    
+    <item>
+      <title>Automated Proof of Polyhedral Abstraction for Petri Nets</title>
+      <link>https://nicolasAmat.github.io/talk/m2f_seminar_2023/</link>
+      <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://nicolasAmat.github.io/talk/m2f_seminar_2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>What is polyhedral reduction? ...and how we use it to accelerate the verification of reachability problems for Petri nets.</title>
+      <link>https://nicolasAmat.github.io/talk/imdea_2023/</link>
+      <pubDate>Tue, 20 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://nicolasAmat.github.io/talk/imdea_2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Computing Linear Inductive Invariants for Petri Nets using Property Directed Reachability</title>
+      <link>https://nicolasAmat.github.io/talk/afsec_2023/</link>
+      <pubDate>Tue, 11 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://nicolasAmat.github.io/talk/afsec_2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Property Directed Reachability for Generalized Petri Nets</title>
+      <link>https://nicolasAmat.github.io/talk/fac_2023/</link>
+      <pubDate>Wed, 05 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://nicolasAmat.github.io/talk/fac_2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Computing Linear Inductive Invariants for Petri Nets using Property Directed Reachability</title>
+      <link>https://nicolasAmat.github.io/talk/gt_verif_2022/</link>
+      <pubDate>Tue, 12 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://nicolasAmat.github.io/talk/gt_verif_2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>What is Polyhedral Reduction? ... and how we use it to accelerate the verification of reachability problems</title>
+      <link>https://nicolasAmat.github.io/talk/mtv_seminar_2022/</link>
+      <pubDate>Thu, 07 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://nicolasAmat.github.io/talk/mtv_seminar_2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On the Combination of Polyhedral Abstraction and SMT-Based Model Checking for Petri Nets</title>
+      <link>https://nicolasAmat.github.io/talk/fac_2021/</link>
+      <pubDate>Fri, 15 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://nicolasAmat.github.io/talk/fac_2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Une approche polyédrique pour la vérification SMT de réseaux de Petri</title>
+      <link>https://nicolasAmat.github.io/talk/afsec_2021/</link>
+      <pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://nicolasAmat.github.io/talk/afsec_2021/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

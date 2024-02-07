@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Other | Nicolas Amat</title>
+    <link>https://nicolasAmat.github.io/tag/other/</link>
+      <atom:link href="https://nicolasAmat.github.io/tag/other/index.xml" rel="self" type="application/rss+xml" />
+    <description>Other</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2024 Nicolas Amat</copyright>
+    <image>
+      <url>https://nicolasAmat.github.io/images/icon_huc24f511e683ccfafca4c4af3b08000be_143249_512x512_fill_lanczos_center_3.png</url>
+      <title>Other</title>
+      <link>https://nicolasAmat.github.io/tag/other/</link>
+    </image>
+    
+    <item>
+      <title>matrix2pnml</title>
+      <link>https://nicolasAmat.github.io/project/matrix2pnml/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://nicolasAmat.github.io/project/matrix2pnml/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Separation Logic Formalization</title>
+      <link>https://nicolasAmat.github.io/project/sepration_logic_formalization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://nicolasAmat.github.io/project/sepration_logic_formalization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sudoku Solver</title>
+      <link>https://nicolasAmat.github.io/project/sudoku_solver/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://nicolasAmat.github.io/project/sudoku_solver/</guid>
+      <description>&lt;h2 id=&#34;usage&#34;&gt;Usage&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;./sudoku_z3_api.py &amp;lt;path_to_grid_file&amp;gt;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;./sudoku_z3_smtlib2.py &amp;lt;path_to_grid_file&amp;gt;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;./sudoku_dpll.py &amp;lt;path_to_grid_file&amp;gt;&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;characteristics-of-solvers&#34;&gt;Characteristics of Solvers&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;./sudoku_z3_api.py&lt;/code&gt;: Solver using Z3 API (slow)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;./sudoku_z3_smtlib2.py&lt;/code&gt;: Solver writting an SMTlib2 file and parsing the output of z3 (fast)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;./sudoku_dpll.py&lt;/code&gt;: Solver with an embedded DPLL solver written by myself (very fast and not using z3)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;grid-format&#34;&gt;Grid Format&lt;/h2&gt;
+&lt;p&gt;Each line represents a value in the initial grid:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;(i, j, value)&lt;/strong&gt; were i, j and value are intergers in 1 .. 9&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;test-grids&#34;&gt;Test Grids&lt;/h2&gt;
+&lt;p&gt;Three grid are available in the directory &lt;code&gt;tests/&lt;/code&gt; to test the different solvers:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;test_sat&lt;/code&gt;: solvable grid&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;test_unsat&lt;/code&gt;: unsolvable grid&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;test_hardest&lt;/code&gt;: very difficult grid made by Arto Inkala and taken from &lt;a href=&#34;https://www.telegraph.co.uk/news/science/science-news/9359579/Worlds-hardest-sudoku-can-you-crack-it.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.telegraph.co.uk/news/science/science-news/9359579/Worlds-hardest-sudoku-can-you-crack-it.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;output-examples&#34;&gt;Output Examples&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Solvable grid (0 represents a missing value):&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&#34;language-text&#34;&gt;Initial grid:
+
+|2|9|0|3|0|8|0|0|0|
+|0|0|6|4|0|0|0|5|0|
+|0|0|0|7|0|0|0|9|0|
+|0|0|1|0|0|0|0|0|8|
+|7|0|0|0|9|0|3|0|0|
+|3|0|0|0|0|0|0|0|5|
+|0|0|0|0|0|2|0|0|6|
+|0|8|0|0|1|0|5|0|0|
+|5|2|0|0|8|0|0|0|0|
+
+Solved grid:
+
+|2|9|4|3|5|8|1|6|7|
+|1|7|6|4|2|9|8|5|3|
+|8|3|5|7|6|1|2|9|4|
+|9|5|1|2|4|3|6|7|8|
+|7|6|2|8|9|5|3|4|1|
+|3|4|8|1|7|6|9|2|5|
+|4|1|9|5|3|2|7|8|6|
+|6|8|7|9|1|4|5|3|2|
+|5|2|3|6|8|7|4|1|9|
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;Unsolvable grid (0 represents a missing value):&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&#34;language-text&#34;&gt;Initial grid:
+
+|2|2|0|3|0|8|0|0|0|
+|0|0|6|4|0|0|0|5|0|
+|0|0|0|7|0|0|0|9|0|
+|0|0|1|0|0|0|0|0|8|
+|7|0|0|0|9|0|3|0|0|
+|3|0|0|0|0|0|0|0|5|
+|0|0|0|0|0|2|0|0|6|
+|0|8|0|0|1|0|5|0|0|
+|5|2|0|0|8|0|0|0|0|
+
+Grid unsolvable!
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

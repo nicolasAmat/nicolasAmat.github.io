@@ -1,0 +1,4551 @@
+<!DOCTYPE html><html lang="en-us" >
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  
+  
+  <meta name="generator" content="Wowchemy 5.0.0-beta.1 for Hugo">
+  
+
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Nicolas Amat">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Homepage of Nicolas Amat, PhD student in model checking at LAAS-CNRS (Vertics group)">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://nicolasAmat.github.io/">
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#0078D7">
+  
+
+  
+  
+  
+  <script src="/js/mathjax-config.js"></script>
+  
+
+  
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css" integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin="anonymous">
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.2/lazysizes.min.js" integrity="sha512-TmDwFLhg3UA4ZG0Eb4MIyT1O1Mb+Oww5kFG0uHqXsdbyZz9DcvYQhKpGgNkamAI6h2lGGZq2X8ftOJvF/XjTUg==" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+    
+      
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=B612+Mono&family=B612:wght@400;700&family=Jura:wght@400;700&display=swap">
+    
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.min.47011b65252671397c55411077475d0f.css">
+
+  
+
+
+
+
+  
+
+  
+
+
+  
+  
+
+  
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Nicolas Amat">
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_huc24f511e683ccfafca4c4af3b08000be_143249_32x32_fill_lanczos_center_3.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_huc24f511e683ccfafca4c4af3b08000be_143249_192x192_fill_lanczos_center_3.png">
+
+  <link rel="canonical" href="https://nicolasAmat.github.io/">
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="og:site_name" content="Nicolas Amat">
+  <meta property="og:url" content="https://nicolasAmat.github.io/">
+  <meta property="og:title" content="Nicolas Amat">
+  <meta property="og:description" content="Homepage of Nicolas Amat, PhD student in model checking at LAAS-CNRS (Vertics group)"><meta property="og:image" content="https://nicolasAmat.github.io/images/icon_huc24f511e683ccfafca4c4af3b08000be_143249_512x512_fill_lanczos_center_3.png">
+  <meta property="twitter:image" content="https://nicolasAmat.github.io/images/icon_huc24f511e683ccfafca4c4af3b08000be_143249_512x512_fill_lanczos_center_3.png"><meta property="og:locale" content="en-us">
+  
+    <meta property="og:updated_time" content="2024-01-15T00:00:00&#43;00:00">
+  
+
+  
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://nicolasAmat.github.io/?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  },
+  "url": "https://nicolasAmat.github.io/"
+}
+</script>
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>Nicolas Amat</title>
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main" class="page-wrapper  ">
+
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.js"></script>
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">Nicolas Amat</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Nicolas Amat</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about" data-target="#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#publications" data-target="#publications"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#projects" data-target="#projects"><span>Projects</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#talks" data-target="#talks"><span>Talks</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#teaching" data-target="#teaching"><span>Teaching</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#academic" data-target="#academic"><span>Academic</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#distinctions" data-target="#distinctions"><span>Distinctions</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#experience" data-target="#experience"><span>Experience</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact" data-target="#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+          <i class="fas fa-moon" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  </div>
+
+  <div class="page-body">
+    
+
+
+
+
+
+
+
+
+
+
+
+  
+<span class="js-widget-page d-none"></span>
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="about" class="home-section wg-about  "  >
+   <div class="home-section-bg " ></div>
+    <div class="container">
+
+    
+
+      
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+  <div class="col-12 col-lg-4">
+    <div id="profile">
+
+      
+      
+      <img class="avatar avatar-square" src="/authors/admin/avatar_hu2fac10e3a26274134a735af594535614_19025_270x270_fill_lanczos_center_3.png" alt="Nicolas Amat">
+      
+
+      <div class="portrait-title">
+        <h2>Nicolas Amat</h2>
+        <h3>Postdoctoral researcher</h3>
+
+        
+        <h3>
+          <a href="https://software.imdea.org/" target="_blank" rel="noopener">
+          <span>IMDEA Software Institute</span>
+          </a>
+        </h3>
+        
+      </div>
+
+      <ul class="network-icon" aria-hidden="true">
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="https://github.com/nicolasAmat" target="_blank" rel="noopener" aria-label="github">
+            <i class="fab fa-github big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="https://www.linkedin.com/in/nicolas-amat-830252177" target="_blank" rel="noopener" aria-label="linkedin">
+            <i class="fab fa-linkedin big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="https://twitter.com/NicolasAmat5" target="_blank" rel="noopener" aria-label="twitter">
+            <i class="fab fa-twitter big-icon"></i>
+          </a>
+        </li>
+        
+      </ul>
+
+    </div>
+  </div>
+  <div class="col-12 col-lg-8">
+
+    
+    <h1>About me</h1>
+
+    <p>I am currently a postdoctoral researcher at the IMDEA Software Institute,
+working on new solving techniques for Presburger arithmetic (under the
+supervision of <a href="https://software.imdea.org/~pierreganty/" target="_blank" rel="noopener">Pierre Ganty</a> and
+<a href="https://alessiomansutti.github.io/" target="_blank" rel="noopener">Alessio Mansutti</a>).</p>
+<p>I am interested in theoretical computer science, with a special interest in the
+theory and applications of decision procedures for formal verification.</p>
+<p>I completed my PhD at LAAS-CNRS, where I worked on new methods for taking
+advantage of Petri net reductions with an SMT-based model checker.</p>
+<p>
+  <i class="fas fa-download  pr-1 fa-fw"></i> Download my <a href="/media/Amat_CV.pdf" target="_blank">resumé</a>.</p>
+
+
+    <div class="row">
+
+      
+      <div class="col-md-5">
+        <h3>Interests</h3>
+        <ul class="ul-interests">
+          
+          <li>Model Checking</li>
+          
+          <li>SAT/SMT Solving</li>
+          
+          <li>Presburger Arithmetic</li>
+          
+          <li>Petri Nets</li>
+          
+          <li>Interactive Theorem Proving</li>
+          
+        </ul>
+      </div>
+      
+
+      
+      <div class="col-md-7">
+        <h3>Education</h3>
+        <ul class="ul-edu fa-ul">
+          
+          <li>
+            <i class="fa-li fas fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">PhD in Model Checking, 2020 - 2023</p>
+              <p class="institution">LAAS-CNRS - Toulouse, FRANCE</p>
+            </div>
+          </li>
+          
+          <li>
+            <i class="fa-li fas fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">Master of Science, MoSIG - HECS, 2019 - 2020</p>
+              <p class="institution">Univ. Grenoble Alpes - Grenoble, FRANCE</p>
+            </div>
+          </li>
+          
+          <li>
+            <i class="fa-li fas fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">Engineering Degree, CS, 2017 - 2020</p>
+              <p class="institution">ENSIMAG - Grenoble, FRANCE</p>
+            </div>
+          </li>
+          
+        </ul>
+      </div>
+      
+
+    </div>
+  </div>
+</div>
+
+
+    
+
+    </div>
+  </section>
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="publications" class="home-section wg-pages  "  >
+   <div class="home-section-bg " ></div>
+    <div class="container">
+
+    
+      <div class="row  ">
+      
+        
+          <div class="col-12 col-lg-4 section-heading">
+            <h1>Publications</h1>
+            
+          </div>
+        
+      
+    
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+<div class="col-12 col-lg-8">
+
+  <!-- <div class="alert alert-note">
+  <div>
+    Quickly discover relevant content by <a href="./publication/">filtering publications</a>.
+  </div>
+</div>
+ -->
+<p>My publications tracked by <a href="https://dblp.org/pid/290/7553.html" target="_blank" rel="noopener">DBLP <i class="ai ai-dblp big-icon"></i></a></p>
+
+
+  
+    
+      <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span >
+      Nicolas Amat</span>, <span >
+      Silvano Dal Zilio</span>, <span >
+      Didier Le Botlan</span>.
+  </span>
+  <a href="/publication/vmcai_2024/">Project and Conquer: Fast Quantifier Elimination for Checking Petri Net Reachability</a>.
+  VMCAI,
+  2024.
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publication/vmcai_2024/VMCAI_2024.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/vmcai_2024/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/octant/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1007/978-3-030-99524-9_28" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+</div>
+
+    
+  
+    
+      <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span >
+      Nicolas Amat</span>.
+  </span>
+  <a href="/publication/amat_phd_thesis/">PhD Thesis: A polyhedral Framework for Reachability Problems in Petri Nets</a>.
+  INSA Toulouse,
+  2023.
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publication/amat_phd_thesis/Amat_PhD_Thesis.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/amat_phd_thesis/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/slides/Amat_PhD_Thesis.pdf" target="_blank" rel="noopener">
+  Slides
+</a>
+
+
+
+
+
+
+</p>
+
+  
+</div>
+
+    
+  
+    
+      <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span >
+      Nicolas Amat</span>, <span >
+      Pierre Bouvier</span>, <span >
+      Hubert Garavel</span>.
+  </span>
+  <a href="/publication/topnoc/">A Toolchain to Compute Concurrent Places of Petri Nets</a>.
+  ToPNoC,
+  2023.
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/kong/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+</p>
+
+  
+</div>
+
+    
+  
+    
+      <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span >
+      Nicolas Amat</span>, <span >
+      Silvano Dal Zilio</span>, <span >
+      Didier Le Botlan</span>.
+  </span>
+  <a href="/publication/petri_nets_2023/">Automated Polyhedral Abstraction Proving</a>.
+  Petri Nets,
+  2023.
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publication/petri_nets_2023/Petri_Nets_2023.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/petri_nets_2023/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/reductron/">
+    Project
+  </a>
+  
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/slides/Petri_Nets_2023.pdf" target="_blank" rel="noopener">
+  Slides
+</a>
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1007/978-3-031-33620-1_18" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+</div>
+
+    
+  
+    
+      <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span >
+      Nicolas Amat</span>, <span >
+      Silvano Dal Zilio</span>.
+  </span>
+  <a href="/publication/fm_2023/">SMPT: A Testbed for Reachability Methods in Generalized Petri Nets</a>.
+  FM,
+  2023.
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publication/fm_2023/FM_2023.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/fm_2023/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/smpt/">
+    Project
+  </a>
+  
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/slides/FM_2023.pdf" target="_blank" rel="noopener">
+  Slides
+</a>
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1007/978-3-031-27481-7_25" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+</div>
+
+    
+  
+    
+      <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span >
+      Nicolas Amat</span>, <span >
+      Silvano Dal Zilio</span>, <span >
+      Didier Le Botlan</span>.
+  </span>
+  <a href="/publication/sttt/">Leveraging polyhedral reductions for solving Petri net reachability problems</a>.
+  STTT,
+  2022.
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publication/sttt/STTT.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/sttt/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/kong/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1007/s10009-022-00694-8" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+</div>
+
+    
+  
+    
+      <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span >
+      Nicolas Amat</span>, <span >
+      Bernard Berthomieu</span>, <span >
+      Silvano Dal Zilio</span>.
+  </span>
+  <a href="/publication/fi/">A Polyhedral Abstraction for Petri nets and its Application to SMT-Based Model Checking</a>.
+  FI,
+  2022.
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publication/fi/FI.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/fi/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/smpt/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.3233/FI-222134" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+</div>
+
+    
+  
+    
+      <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span >
+      Nicolas Amat</span>, <span >
+      Louis Chauvet</span>.
+  </span>
+  <a href="/publication/petri_nets_2022/">Kong: a Tool to Squash Concurrent Places</a>.
+  Petri Nets,
+  2022.
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publication/petri_nets_2022/Petri_Nets_2022.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/petri_nets_2022/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/kong/">
+    Project
+  </a>
+  
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/slides/Petri_Nets_2022.pdf" target="_blank" rel="noopener">
+  Slides
+</a>
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1007/978-3-031-06653-5_6" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+</div>
+
+    
+  
+    
+      <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span >
+      Nicolas Amat</span>, <span >
+      Silvano Dal Zilio</span>, <span >
+      Thomas Hujsa</span>.
+  </span>
+  <a href="/publication/tacas_2022/">Property Directed Reachability for Generalized Petri Nets</a>.
+  TACAS,
+  2022.
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publication/tacas_2022/TACAS_2022.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/tacas_2022/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/smpt/">
+    Project
+  </a>
+  
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/slides/TACAS_2022.pdf" target="_blank" rel="noopener">
+  Slides
+</a>
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1007/978-3-030-99524-9_28" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+</div>
+
+    
+  
+    
+      <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span >
+      Nicolas Amat</span>, <span >
+      Silvano Dal Zilio</span>, <span >
+      Didier Le Botlan</span>.
+  </span>
+  <a href="/publication/spin_2021/">Accelerating the Computation of Dead and Concurrent Places Using Reductions</a>.
+  SPIN,
+  2021.
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publication/spin_2021/SPIN_2021.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/spin_2021/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/kong/">
+    Project
+  </a>
+  
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/slides/SPIN_2021.pdf" target="_blank" rel="noopener">
+  Slides
+</a>
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1007/978-3-030-84629-9_3" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+</div>
+
+    
+  
+    
+      <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span >
+      Nicolas Amat</span>, <span >
+      Bernard Berthomieu</span>, <span >
+      Silvano Dal Zilio</span>.
+  </span>
+  <a href="/publication/petri_nets_2021/">On the Combination of Polyhedral Abstraction and SMT-Based Model Checking for Petri Nets</a>.
+  Petri Nets,
+  2021.
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publication/petri_nets_2021/Petri_Nets_2021.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/petri_nets_2021/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/smpt/">
+    Project
+  </a>
+  
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/slides/Petri_Nets_2021.pdf" target="_blank" rel="noopener">
+  Slides
+</a>
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://youtu.be/YZXQACujVQQ" target="_blank" rel="noopener">
+  Video
+</a>
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1007/978-3-030-76983-3_9" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+</div>
+
+    
+  
+    
+      <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  <span >
+      Nicolas Amat</span>.
+  </span>
+  <a href="/publication/amat_master_thesis/">Master thesis: A New Approach for the Symbolic Model Checking of Petri nets</a>.
+  University of Grenoble Alpes,
+  2020.
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publication/amat_master_thesis/Amat_master_thesis.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/amat_master_thesis/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/slides/Amat_master_thesis.pdf" target="_blank" rel="noopener">
+  Slides
+</a>
+
+
+
+
+
+
+</p>
+
+  
+</div>
+
+    
+  
+
+  
+  
+  
+
+</div>
+
+
+    
+      </div>
+    
+
+    </div>
+  </section>
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="projects" class="home-section wg-portfolio  "  >
+   <div class="home-section-bg " ></div>
+    <div class="container">
+
+    
+      <div class="row  ">
+      
+        
+          <div class="col-12 col-lg-4 section-heading">
+            <h1>Projects</h1>
+            
+          </div>
+        
+      
+    
+
+      
+
+
+
+
+
+
+
+
+
+<div class="col-12 col-lg-8">
+
+  
+
+  
+
+    
+
+    
+    
+    
+    
+
+    <span class="d-none default-project-filter">.js-id-Model-Checking</span>
+
+    
+    
+    <div class="project-toolbar">
+      <div class="project-filters">
+        <div class="btn-toolbar">
+          <div class="btn-group flex-wrap">
+            
+              
+              
+              
+              <a href="#" data-filter=".js-id-Model-Checking" class="btn btn-primary btn-lg active">Model Checking</a>
+            
+              
+              
+              
+              <a href="#" data-filter=".js-id-Teaching" class="btn btn-primary btn-lg">Teaching</a>
+            
+              
+              
+              
+              <a href="#" data-filter=".js-id-Other" class="btn btn-primary btn-lg">Other</a>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+
+  <div class="isotope projects-container row js-layout-row ">
+    
+
+      
+      
+      
+
+      
+        
+
+
+<div class="col-12 isotope-item js-id-Model-Checking">
+  
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/project/kong/" >Kong - Koncurrent Places Grinder</a>
+    </h3>
+
+    
+    <a href="/project/kong/"  class="summary-link">
+      <div class="article-style">
+        Kong is a tool to compute the concurrency relation of a Petri using net reduction.
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/nicolasAmat/Kong" target="_blank" rel="noopener">
+    <i class="fab fa-github mr-1"></i>
+    Repository
+  </a>
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    
+    
+    <a href="/project/kong/" >
+      <img src="/project/kong/featured_huadf9478d97bc031cafc97b396e4eb63b_61386_3ce289576f2c99d6404c210f6134dfc6.png" data-src="/project/kong/featured_huadf9478d97bc031cafc97b396e4eb63b_61386_150x0_resize_lanczos_3.png" alt="Kong - Koncurrent Places Grinder" class="lazyload">
+    </a>
+    
+  </div>
+</div>
+
+</div>
+
+      
+
+    
+
+      
+      
+      
+
+      
+        
+
+
+<div class="col-12 isotope-item js-id-Other">
+  
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/project/matrix2pnml/" >matrix2pnml</a>
+    </h3>
+
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/nicolasAmat/matrix2pnml" target="_blank" rel="noopener">
+    <i class="fab fa-github mr-1"></i>
+    Repository
+  </a>
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+</div>
+
+      
+
+    
+
+      
+      
+      
+
+      
+        
+
+
+<div class="col-12 isotope-item js-id-Model-Checking">
+  
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/project/octant/" >Octant</a>
+    </h3>
+
+    
+    <a href="/project/octant/"  class="summary-link">
+      <div class="article-style">
+        A tool to project Petri nets reachability properties.
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/nicolasAmat/Octant" target="_blank" rel="noopener">
+    <i class="fab fa-github mr-1"></i>
+    Repository
+  </a>
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    
+    
+    <a href="/project/octant/" >
+      <img src="/project/octant/featured_hu6f712afa378836bd21a0216601504937_272725_946ca721fcf9fd989751c2353fd444df.png" data-src="/project/octant/featured_hu6f712afa378836bd21a0216601504937_272725_150x0_resize_lanczos_3.png" alt="Octant" class="lazyload">
+    </a>
+    
+  </div>
+</div>
+
+</div>
+
+      
+
+    
+
+      
+      
+      
+
+      
+        
+
+
+<div class="col-12 isotope-item js-id-Model-Checking">
+  
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/project/reductron/" >Reductron</a>
+    </h3>
+
+    
+    <a href="/project/reductron/"  class="summary-link">
+      <div class="article-style">
+        Automated Polyhedral Abstraction Prover.
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/nicolasAmat/Reductron" target="_blank" rel="noopener">
+    <i class="fab fa-github mr-1"></i>
+    Repository
+  </a>
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    
+    
+    <a href="/project/reductron/" >
+      <img src="/project/reductron/featured_hu3ced8a97d19d614176a4d4edfd583617_602770_4fb3faf5242ceec56d8b0790af14f0ee.png" data-src="/project/reductron/featured_hu3ced8a97d19d614176a4d4edfd583617_602770_150x0_resize_lanczos_3.png" alt="Reductron" class="lazyload">
+    </a>
+    
+  </div>
+</div>
+
+</div>
+
+      
+
+    
+
+      
+      
+      
+
+      
+        
+
+
+<div class="col-12 isotope-item js-id-Other">
+  
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/project/sepration_logic_formalization/" >Separation Logic Formalization</a>
+    </h3>
+
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/nicolasAmat/Separation-Logic-Formalization" target="_blank" rel="noopener">
+    <i class="fab fa-github mr-1"></i>
+    Repository
+  </a>
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+</div>
+
+      
+
+    
+
+      
+      
+      
+
+      
+        
+
+
+<div class="col-12 isotope-item js-id-Model-Checking">
+  
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/project/smpt/" >SM(P/)T - Satisfiability Modulo Petri Nets</a>
+    </h3>
+
+    
+    <a href="/project/smpt/"  class="summary-link">
+      <div class="article-style">
+        SMPT is an SMT-based model-checker for Petri nets that takes advantage of net reductions.
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/nicolasAmat/SMPT" target="_blank" rel="noopener">
+    <i class="fab fa-github mr-1"></i>
+    Repository
+  </a>
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    
+    
+    <a href="/project/smpt/" >
+      <img src="/project/smpt/featured_hu0246e73d190f33515868d2f9e5aa6b9b_93020_b8d8508080b648fabed5eb3a4e1c658c.jpg" data-src="/project/smpt/featured_hu0246e73d190f33515868d2f9e5aa6b9b_93020_150x0_resize_q75_lanczos.jpg" alt="SM(P/)T - Satisfiability Modulo Petri Nets" class="lazyload">
+    </a>
+    
+  </div>
+</div>
+
+</div>
+
+      
+
+    
+
+      
+      
+      
+
+      
+        
+
+
+<div class="col-12 isotope-item js-id-Other">
+  
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/project/sudoku_solver/" >Sudoku Solver</a>
+    </h3>
+
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/nicolasAmat/Sudoku_Solver" target="_blank" rel="noopener">
+    <i class="fab fa-github mr-1"></i>
+    Repository
+  </a>
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+</div>
+
+      
+
+    
+
+      
+      
+      
+
+      
+        
+
+
+<div class="col-12 isotope-item js-id-Teaching">
+  
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/project/usmpt/" >uSMPT</a>
+    </h3>
+
+    
+    <a href="/project/usmpt/"  class="summary-link">
+      <div class="article-style">
+        An SMT-based Model Checking Project.
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/nicolasAmat/uSMPT" target="_blank" rel="noopener">
+    <i class="fab fa-github mr-1"></i>
+    Repository
+  </a>
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+</div>
+
+      
+
+    
+  </div>
+</div>
+
+
+    
+      </div>
+    
+
+    </div>
+  </section>
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="talks" class="home-section wg-pages  "  >
+   <div class="home-section-bg " ></div>
+    <div class="container">
+
+    
+      <div class="row  ">
+      
+        
+          <div class="col-12 col-lg-4 section-heading">
+            <h1>Talks</h1>
+            
+          </div>
+        
+      
+    
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+<div class="col-12 col-lg-8">
+
+  
+
+  
+    
+      
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="view-list-item">
+  <i class="far fa-calendar-alt pub-icon" aria-hidden="true"></i>
+  <a href="/talk/m2f_seminar_2023/" >Automated Proof of Polyhedral Abstraction for Petri Nets</a>
+
+  
+  <div class="article-metadata">
+    <span>
+      Oct 24, 2023
+    </span>
+    
+    <span class="middot-divider"></span>
+    <span>Bordeaux, FRANCE</span>
+    
+  </div>
+  
+
+  
+
+  
+
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="view-list-item">
+  <i class="far fa-calendar-alt pub-icon" aria-hidden="true"></i>
+  <a href="/talk/imdea_2023/" >What is polyhedral reduction? ...and how we use it to accelerate the verification of reachability problems for Petri nets.</a>
+
+  
+  <div class="article-metadata">
+    <span>
+      Jun 20, 2023
+    </span>
+    
+    <span class="middot-divider"></span>
+    <span>Madrid, SPAIN</span>
+    
+  </div>
+  
+
+  
+
+  
+
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="view-list-item">
+  <i class="far fa-calendar-alt pub-icon" aria-hidden="true"></i>
+  <a href="/talk/afsec_2023/" >Computing Linear Inductive Invariants for Petri Nets using Property Directed Reachability</a>
+
+  
+  <div class="article-metadata">
+    <span>
+      Apr 11, 2023
+    </span>
+    
+    <span class="middot-divider"></span>
+    <span>Paris, FRANCE</span>
+    
+  </div>
+  
+
+  
+
+  
+
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="view-list-item">
+  <i class="far fa-calendar-alt pub-icon" aria-hidden="true"></i>
+  <a href="/talk/fac_2023/" >Property Directed Reachability for Generalized Petri Nets</a>
+
+  
+  <div class="article-metadata">
+    <span>
+      Apr 5, 2023
+    </span>
+    
+    <span class="middot-divider"></span>
+    <span>Toulouse, FRANCE</span>
+    
+  </div>
+  
+
+  
+
+  
+
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="view-list-item">
+  <i class="far fa-calendar-alt pub-icon" aria-hidden="true"></i>
+  <a href="/talk/gt_verif_2022/" >Computing Linear Inductive Invariants for Petri Nets using Property Directed Reachability</a>
+
+  
+  <div class="article-metadata">
+    <span>
+      Jul 12, 2022
+    </span>
+    
+    <span class="middot-divider"></span>
+    <span>Bordeaux, FRANCE</span>
+    
+  </div>
+  
+
+  
+
+  
+
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="view-list-item">
+  <i class="far fa-calendar-alt pub-icon" aria-hidden="true"></i>
+  <a href="/talk/mtv_seminar_2022/" >What is Polyhedral Reduction? ... and how we use it to accelerate the verification of reachability problems</a>
+
+  
+  <div class="article-metadata">
+    <span>
+      Jul 7, 2022
+    </span>
+    
+    <span class="middot-divider"></span>
+    <span>Bordeaux, FRANCE</span>
+    
+  </div>
+  
+
+  
+
+  
+
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="view-list-item">
+  <i class="far fa-calendar-alt pub-icon" aria-hidden="true"></i>
+  <a href="/talk/fac_2021/" >On the Combination of Polyhedral Abstraction and SMT-Based Model Checking for Petri Nets</a>
+
+  
+  <div class="article-metadata">
+    <span>
+      Oct 15, 2021
+    </span>
+    
+    <span class="middot-divider"></span>
+    <span>Toulouse, FRANCE</span>
+    
+  </div>
+  
+
+  
+
+  
+
+</div>
+
+    
+  
+    
+      
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="view-list-item">
+  <i class="far fa-calendar-alt pub-icon" aria-hidden="true"></i>
+  <a href="/talk/afsec_2021/" >Une approche polyédrique pour la vérification SMT de réseaux de Petri</a>
+
+  
+  <div class="article-metadata">
+    <span>
+      Jun 16, 2021
+    </span>
+    
+    <span class="middot-divider"></span>
+    <span>Virtual</span>
+    
+  </div>
+  
+
+  
+
+  
+
+</div>
+
+    
+  
+
+  
+  
+  
+
+</div>
+
+
+    
+      </div>
+    
+
+    </div>
+  </section>
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="teaching" class="home-section wg-pages  "  >
+   <div class="home-section-bg " ></div>
+    <div class="container">
+
+    
+      <div class="row  ">
+      
+        
+          <div class="col-12 col-lg-4 section-heading">
+            <h1>Teaching</h1>
+            
+          </div>
+        
+      
+    
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+<div class="col-12 col-lg-8">
+
+  <p><strong>2022/2023</strong></p>
+<ul>
+<li><em>SAT/SMT Solving</em> | PhD students &amp; 2nd year graduate<br>
+National School of Civil Aviation (ENAC), Toulouse, France</li>
+<li><em>Advanced Time Models</em> | 2nd year graduate<br>
+Paul Sabatier University, Toulouse, France</li>
+<li><em>Functional Programming in OCaml</em> | 1st year graduate<br>
+National Institute of Applied Sciences (INSA), Toulouse, France</li>
+<li><em>Regular Expressions</em> | 3rd year undergraduate<br>
+National Institute of Applied Sciences (INSA), Toulouse, France</li>
+<li><em>Algorithmic and Data Structures in ADA</em> | 1st year undergraduate<br>
+National Institute of Applied Sciences (INSA), Toulouse, France</li>
+</ul>
+<p><strong>2021/2022</strong></p>
+<ul>
+<li><em>Advanced Time Models</em> | 2nd year graduate<br>
+Paul Sabatier University</li>
+<li><em>Discrete Event Systems, Modeling and Analysis</em> | 1st year graduate<br>
+Paul Sabatier University, Toulouse, France</li>
+<li><em>Implementation Techniques for Discrete Event Systems</em> | 1st year graduate<br>
+Paul Sabatier University, Toulouse, France</li>
+</ul>
+<p><strong>2020/2021</strong></p>
+<ul>
+<li><em>Algorithmic and Data Structures in ADA</em> | 1st year undergraduate<br>
+National Institute of Applied Sciences (INSA), Toulouse, France</li>
+</ul>
+<p><strong>Intern Students</strong></p>
+<ul>
+<li>Louis Chauvet, INSA, Toulouse | 1st year graduate<br>
+National Institute of Applied Sciences (INSA), Toulouse, France</li>
+<li>Sarah Moreau, INP, Toulouse | 1st year graduate<br>
+National Polytechnic Institute (INP), Toulouse, France</li>
+</ul>
+
+
+  
+
+  
+  
+  
+
+</div>
+
+
+    
+      </div>
+    
+
+    </div>
+  </section>
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="academic" class="home-section wg-pages  "  >
+   <div class="home-section-bg " ></div>
+    <div class="container">
+
+    
+      <div class="row  ">
+      
+        
+          <div class="col-12 col-lg-4 section-heading">
+            <h1>Academic service</h1>
+            
+          </div>
+        
+      
+    
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+<div class="col-12 col-lg-8">
+
+  <ul>
+<li>International Conference on Formal Structures for Computation and Deduction (FSCD 2023), reviewer</li>
+<li><a href="https://www.sciencedirect.com/journal/science-of-computer-programming" target="_blank" rel="noopener">Science of Computer Programming (SCP)</a>, reviewer</li>
+<li><a href="https://dl.acm.org/journal/tecs" target="_blank" rel="noopener">ACM Transactions on Embedded Computing Systems (TECS)</a>, reviewer</li>
+<li><a href="https://sttt.cs.uni-dortmund.de/" target="_blank" rel="noopener">International Journal on Software Tools for Technology Transfer (STTT)</a>, reviewer</li>
+<li>Workshop on Models for Formal Analysis of Real Systems (MARS2020), reviewer</li>
+</ul>
+
+
+  
+
+  
+  
+  
+
+</div>
+
+
+    
+      </div>
+    
+
+    </div>
+  </section>
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="distinctions" class="home-section wg-accomplishments  "  >
+   <div class="home-section-bg " ></div>
+    <div class="container">
+
+    
+      <div class="row  ">
+      
+        
+          <div class="col-12 col-lg-4 section-heading">
+            <h1>Distinctions &amp; awards</h1>
+            
+          </div>
+        
+      
+    
+
+      
+
+
+
+
+<div class="col-12 col-lg-8">
+  
+
+  
+  
+    <div class="card experience course">
+      <div class="card-body"><h4 class="card-title exp-title text-muted my-0">Bronze Medal at the Model Checking Contest 2023</h4><div class="card-subtitle my-0 article-metadata"><a href="https://mcc.lip6.fr/" target="_blank" rel="noopener">The Model Checking Contest Committees</a><span class="middot-divider"></span>
+
+          Apr 2023
+          
+        </div>
+
+        
+          <div class="card-text">My tool, SMPT, won a bronze medal in the “reachability” category of the Model-Checking Contest 2023, an international competition of model-checking tools for the verification of concurrent systems.</div>
+        
+
+        
+          <a class="card-link" href="certificates/SMPT_MCC2023.png" target="_blank" rel="noopener">
+            See certificate
+          </a>
+        
+      </div>
+    </div>
+  
+    <div class="card experience course">
+      <div class="card-body"><h4 class="card-title exp-title text-muted my-0">Bronze Medal &amp; 100% Confidence Award at the Model Checking Contest 2022</h4><div class="card-subtitle my-0 article-metadata"><a href="https://mcc.lip6.fr/" target="_blank" rel="noopener">The Model Checking Contest Committees</a><span class="middot-divider"></span>
+
+          Jun 2022
+          
+        </div>
+
+        
+          <div class="card-text">My tool, SMPT, won a bronze medal in the “reachability” category of the Model-Checking Contest 2022. It also obtains the 100% confidence award.</div>
+        
+
+        
+          <a class="card-link" href="certificates/SMPT_MCC2022.pdf" target="_blank" rel="noopener">
+            See certificate
+          </a>
+        
+      </div>
+    </div>
+  
+    <div class="card experience course">
+      <div class="card-body"><h4 class="card-title exp-title text-muted my-0">Petri Nets 2021 Teaser Video Award</h4><div class="card-subtitle my-0 article-metadata"><a href="https://lipn.univ-paris13.fr/petrinets2021/" target="_blank" rel="noopener">The Organising and Steering Committees of the 42nd International Conference on Application and Theory of Petri Nets and Concurrency</a><span class="middot-divider"></span>
+
+          Jun 2021
+          
+        </div>
+
+        
+          <div class="card-text">For the teaser presentation of the paper: On the Combination of Polyhedral Abstraction and SMT-based Model Checking for Petri nets</div>
+        
+
+        
+          <a class="card-link" href="certificates/Petri_Nets_2021_Award.pdf" target="_blank" rel="noopener">
+            See certificate
+          </a>
+        
+      </div>
+    </div>
+  
+    <div class="card experience course">
+      <div class="card-body"><h4 class="card-title exp-title text-muted my-0">Persyval-lab Excellence Scholarship</h4><div class="card-subtitle my-0 article-metadata"><a href="https://persyval-lab.org/" target="_blank" rel="noopener">Labex PERSYVAL-LAB</a><span class="middot-divider"></span>
+
+          Sep 2019
+          
+        </div>
+
+        
+          <div class="card-text">Scholarship program for attracting exceptional candidates in the second year of one of its master&rsquo;s degree related to the Persyval-lab disciplines.</div>
+        
+
+        
+          <a class="card-link" href="certificates/Excellence_Scholarship.pdf" target="_blank" rel="noopener">
+            See certificate
+          </a>
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+
+    
+      </div>
+    
+
+    </div>
+  </section>
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="experience" class="home-section wg-experience  "  >
+   <div class="home-section-bg " ></div>
+    <div class="container">
+
+    
+      <div class="row  ">
+      
+        
+          <div class="col-12 col-lg-4 section-heading">
+            <h1>Experience</h1>
+            
+          </div>
+        
+      
+    
+
+      
+
+
+
+
+<div class="col-12 col-lg-8">
+  
+
+  
+  
+  
+  <div class="row experience">
+    
+    <div class="col-auto text-center flex-column d-none d-sm-flex">
+      <div class="row h-50">
+        <div class="col ">&nbsp;</div>
+        <div class="col">&nbsp;</div>
+      </div>
+      <div class="m-2">
+        <span class="badge badge-pill border ">&nbsp;</span>
+      </div>
+      <div class="row h-50">
+        <div class="col border-right">&nbsp;</div>
+        <div class="col">&nbsp;</div>
+      </div>
+    </div>
+    
+    <div class="col py-2">
+      <div class="card">
+        <div class="card-body">
+          <h4 class="card-title exp-title text-muted mt-0 mb-1">Formal Methods Intern</h4>
+          <h4 class="card-title exp-company text-muted my-0"><a href="https://www.laas.fr/" target="_blank" rel="noopener">LAAS-CNRS | INRIA</a></h4>
+          <div class="text-muted exp-meta">
+            Feb 2020 –
+            
+              Jun 2020
+            
+            
+              <span class="middot-divider"></span>
+              <span>Toulouse and Grenoble, FRANCE</span>
+            
+          </div>
+          <div class="card-text"><ul>
+<li>Main developer of the SMPT model-checker for reachability properties on Petri nets.</li>
+<li>Combination of polyhedral abstraction with SMT-based methods.</li>
+<li>Main developer of the tool Kong for the ``concurrent places&rsquo;&rsquo; problem.</li>
+</ul>
+</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="row experience">
+    
+    <div class="col-auto text-center flex-column d-none d-sm-flex">
+      <div class="row h-50">
+        <div class="col border-right">&nbsp;</div>
+        <div class="col">&nbsp;</div>
+      </div>
+      <div class="m-2">
+        <span class="badge badge-pill border ">&nbsp;</span>
+      </div>
+      <div class="row h-50">
+        <div class="col border-right">&nbsp;</div>
+        <div class="col">&nbsp;</div>
+      </div>
+    </div>
+    
+    <div class="col py-2">
+      <div class="card">
+        <div class="card-body">
+          <h4 class="card-title exp-title text-muted mt-0 mb-1">Embedded Software Intern</h4>
+          <h4 class="card-title exp-company text-muted my-0"><a href="https://www.arm.com/" target="_blank" rel="noopener">Arm Ltd.</a></h4>
+          <div class="text-muted exp-meta">
+            Jun 2019 –
+            
+              Aug 2019
+            
+            
+              <span class="middot-divider"></span>
+              <span>Cambridge, UK</span>
+            
+          </div>
+          <div class="card-text"><ul>
+<li>A three-month programming project related to the Arm Mali GPU software driver stack.</li>
+<li>Running the Mali GPU driver on User-mode Linux (UML).</li>
+<li>Development of Linux kernel patches.</li>
+</ul>
+</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="row experience">
+    
+    <div class="col-auto text-center flex-column d-none d-sm-flex">
+      <div class="row h-50">
+        <div class="col border-right">&nbsp;</div>
+        <div class="col">&nbsp;</div>
+      </div>
+      <div class="m-2">
+        <span class="badge badge-pill border ">&nbsp;</span>
+      </div>
+      <div class="row h-50">
+        <div class="col border-right">&nbsp;</div>
+        <div class="col">&nbsp;</div>
+      </div>
+    </div>
+    
+    <div class="col py-2">
+      <div class="card">
+        <div class="card-body">
+          <h4 class="card-title exp-title text-muted mt-0 mb-1">Introduction to Laboratory Research</h4>
+          <h4 class="card-title exp-company text-muted my-0"><a href="https://www.liglab.fr/" target="_blank" rel="noopener">LIG - Grenoble Informatics Laboratory</a></h4>
+          <div class="text-muted exp-meta">
+            Jan 2019 –
+            
+              Jun 2019
+            
+            
+              <span class="middot-divider"></span>
+              <span>Grenoble, FRANCE</span>
+            
+          </div>
+          <div class="card-text"><ul>
+<li>Formalization of Separation Logic using the Isabelle/HOL proof assistant.</li>
+<li>Proof of formula transformation results of the separation logic.</li>
+</ul>
+</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="row experience">
+    
+    <div class="col-auto text-center flex-column d-none d-sm-flex">
+      <div class="row h-50">
+        <div class="col border-right">&nbsp;</div>
+        <div class="col">&nbsp;</div>
+      </div>
+      <div class="m-2">
+        <span class="badge badge-pill border ">&nbsp;</span>
+      </div>
+      <div class="row h-50">
+        <div class="col ">&nbsp;</div>
+        <div class="col">&nbsp;</div>
+      </div>
+    </div>
+    
+    <div class="col py-2">
+      <div class="card">
+        <div class="card-body">
+          <h4 class="card-title exp-title text-muted mt-0 mb-1">Crypto Developer Intern</h4>
+          <h4 class="card-title exp-company text-muted my-0"><a href="https://www.irit.fr/" target="_blank" rel="noopener">IRIT - Toulouse Institute of Computer Science Research</a></h4>
+          <div class="text-muted exp-meta">
+            May 2017 –
+            
+              Jun 2019
+            
+            
+              <span class="middot-divider"></span>
+              <span>Toulouse, FRANCE</span>
+            
+          </div>
+          <div class="card-text"><ul>
+<li>Private Information Retrieval software based on homomorphic encryption.</li>
+<li>C++ and Python development.</li>
+<li>Security improvement.</li>
+</ul>
+</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+</div>
+
+
+    
+      </div>
+    
+
+    </div>
+  </section>
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="contact" class="home-section wg-contact  "  >
+   <div class="home-section-bg " ></div>
+    <div class="container">
+
+    
+      <div class="row  ">
+      
+        
+          <div class="col-12 col-lg-4 section-heading">
+            <h1>Contact</h1>
+            
+          </div>
+        
+      
+    
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="col-12 col-lg-8">
+  
+
+  
+
+  <ul class="fa-ul">
+
+    
+    <li>
+      <i class="fa-li fas fa-envelope fa-2x" aria-hidden="true"></i>
+      <span id="person-email"><a href="mailto:nicolas%20[dot]%20amat%20[at]%20imdea%20[dot]%20org">nicolas [dot] amat [at] imdea [dot] org</a></span>
+    </li>
+    
+
+    
+    <li>
+      <i class="fa-li fas fa-phone fa-2x" aria-hidden="true"></i>
+      <span id="person-telephone"><a href="tel:&#43;34-91-101-2202">&#43;34-91-101-2202</a></span>
+    </li>
+    
+
+    
+    
+      
+      <li>
+        <i class="fa-li fas fa-map-marker fa-2x" aria-hidden="true"></i>
+        <span id="person-address">Campus de Montegancedo s/n, Pozuelo de Alarcón, Madrid, 28223</span>
+      </li>
+    
+
+    
+    <li>
+      <i class="fa-li fas fa-compass fa-2x" aria-hidden="true"></i>
+      <span>Office 246</span>
+    </li>
+    
+
+    
+
+    
+
+    
+    
+
+  </ul>
+
+  
+  <div class="d-none">
+    <input id="map-provider" value="2">
+    <input id="map-lat" value="40.407091">
+    <input id="map-lng" value="-3.835262">
+    <input id="map-dir" value="Campus de Montegancedo s/n, Pozuelo de Alarcón, Madrid, 28223">
+    <input id="map-zoom" value="15">
+    <input id="map-api-key" value="">
+  </div>
+  <div id="map"></div>
+  
+
+</div>
+
+
+    
+      </div>
+    
+
+    </div>
+  </section>
+
+
+
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    © 2024 Nicolas Amat
+  </p>
+
+  
+  
+
+
+
+
+
+
+
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+      
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/python.min.js"></script>
+        
+      
+
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.js" integrity="sha512-SeiQaaDh73yrb56sTW/RgVdi/mMqNeM2oBwubFHagc5BkixSpP1fvqF47mKzPGWYSSy4RwbBunrJBQ4Co8fRWA==" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks",
+        'slides' : "Slides"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/wowchemy.min.e09d59f9a09ee47a9d1ef1dde8dcc594.js"></script>
+
+    
+
+
+
+
+
+
+</body>
+</html>

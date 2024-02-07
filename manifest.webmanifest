@@ -1,0 +1,18 @@
+{
+  "name": "Nicolas Amat",
+  "short_name": "Nicolas Amat",
+  "lang": "en-us",
+  "theme_color": "#0078D7",
+  "background_color": "#0078D7",
+  "icons": [{
+    "src": "/images/icon_huc24f511e683ccfafca4c4af3b08000be_143249_192x192_fill_lanczos_center_3.png",
+    "sizes": "192x192",
+    "type": "image/png"
+    }, {
+    "src": "/images/icon_huc24f511e683ccfafca4c4af3b08000be_143249_512x512_fill_lanczos_center_3.png",
+    "sizes": "512x512",
+    "type": "image/png"
+     }],
+  "display": "standalone",
+  "start_url": "/?utm_source=web_app_manifest"
+}
