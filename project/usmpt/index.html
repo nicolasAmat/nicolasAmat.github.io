@@ -34,7 +34,7 @@
   
     
   
-  <meta name="description" content="An SMT-based Model Checking Project.">
+  <meta name="description" content="An educational project, targeting Master and PhD students to showcase the application of SMT methods in system verification, by developing a Petri net model checker for the reachability problem.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://nicolasAmat.github.io/project/usmpt/">
@@ -258,8 +258,8 @@
   
 
   <link rel="manifest" href="/index.webmanifest">
-  <link rel="icon" type="image/png" href="/images/icon_huc24f511e683ccfafca4c4af3b08000be_143249_32x32_fill_lanczos_center_3.png">
-  <link rel="apple-touch-icon" type="image/png" href="/images/icon_huc24f511e683ccfafca4c4af3b08000be_143249_192x192_fill_lanczos_center_3.png">
+  <link rel="icon" type="image/png" href="/images/icon_hu436cba8eaa891805a4e938a52637e587_34035_32x32_fill_lanczos_center_3.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu436cba8eaa891805a4e938a52637e587_34035_192x192_fill_lanczos_center_3.png">
 
   <link rel="canonical" href="https://nicolasAmat.github.io/project/usmpt/">
 
@@ -279,8 +279,8 @@
   <meta property="og:site_name" content="Nicolas Amat">
   <meta property="og:url" content="https://nicolasAmat.github.io/project/usmpt/">
   <meta property="og:title" content="uSMPT | Nicolas Amat">
-  <meta property="og:description" content="An SMT-based Model Checking Project."><meta property="og:image" content="https://nicolasAmat.github.io/images/icon_huc24f511e683ccfafca4c4af3b08000be_143249_512x512_fill_lanczos_center_3.png">
-  <meta property="twitter:image" content="https://nicolasAmat.github.io/images/icon_huc24f511e683ccfafca4c4af3b08000be_143249_512x512_fill_lanczos_center_3.png"><meta property="og:locale" content="en-us">
+  <meta property="og:description" content="An educational project, targeting Master and PhD students to showcase the application of SMT methods in system verification, by developing a Petri net model checker for the reachability problem."><meta property="og:image" content="https://nicolasAmat.github.io/images/icon_hu436cba8eaa891805a4e938a52637e587_34035_512x512_fill_lanczos_center_3.png">
+  <meta property="twitter:image" content="https://nicolasAmat.github.io/images/icon_hu436cba8eaa891805a4e938a52637e587_34035_512x512_fill_lanczos_center_3.png"><meta property="og:locale" content="en-us">
   
     
     
@@ -322,10 +322,10 @@
     "name": "Nicolas Amat",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://nicolasAmat.github.io/images/icon_huc24f511e683ccfafca4c4af3b08000be_143249_192x192_fill_lanczos_center_3.png"
+      "url": "https://nicolasAmat.github.io/images/icon_hu436cba8eaa891805a4e938a52637e587_34035_192x192_fill_lanczos_center_3.png"
     }
   },
-  "description": "An SMT-based Model Checking Project."
+  "description": "An educational project, targeting Master and PhD students to showcase the application of SMT methods in system verification, by developing a Petri net model checker for the reachability problem."
 }
 </script>
 
@@ -538,7 +538,44 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#projects"><span>Projects</span></a>
+          <a class="nav-link " href="/#projects"><span>Softwares</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#open-science"><span>Open science</span></a>
         </li>
 
         
@@ -649,7 +686,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#academic"><span>Academic</span></a>
+          <a class="nav-link " href="/#academic"><span>Service</span></a>
         </li>
 
         
@@ -943,9 +980,9 @@
 
     <div class="article-style">
       <p>The goal of this project is to showcase the application of SMT (Satisfiability Modulo Theories) methods in system verification by developing a Petri net model checker that solves the reachability problem. As a developer, you will have the opportunity to participate in the reachability category of the <a href="https://mcc.lip6.fr/2023/" target="_blank" rel="noopener">Model Checking Contest</a>, an international competition for model checking tools, and put your skills to the test.</p>
-<h2 id="1---theoretical-background">1 - Theoretical Background</h2>
+<h1 id="1---theoretical-background">1 - Theoretical Background</h1>
 <p>We start by introducing some key concepts that are useful in the context of this project.</p>
-<h3 id="11---model-checking-overview">1.1 - Model Checking Overview</h3>
+<h2 id="11---model-checking-overview">1.1 - Model Checking Overview</h2>
 <p>Model Checking is a formal method for checking whether a model of a system meets a given specification. A (property) <em>specification</em> describes the properties of interest, like for instance the states or events that are forbidden. A <em>model</em> defines the idealized behavior of the system and how it interacts with the external world. This technique can be used at different stages of systems development (design, architecture, etc.) and, in its simplest form, can be described as an exhaustive exploration of all the states that the system can take. In this project, we focus on <em>reachability properties</em> (sometimes also called safety properties), meaning properties about the states that the system can reach.</p>
 <p>Model Checking is composed of three main elements to perform verification:</p>
 <ul>
@@ -953,7 +990,7 @@
 <li><em>A behavioral specification language</em>, that is a formalism to describe the system and its behavior. A model-checker can work with different formalisms, such as networks of automata, process calculi, Petri net, and many others.</li>
 <li><em>A verification technique</em>, that is a method to prove that the system satisfies the given properties or return a counter-example if it is not the case. Besides &ldquo;traditional&rdquo; enumerative or automata-based techniques, two main approaches can be found: a first one based on the use of decision diagrams (such as Binary Decision Diagrams); and a second one based on an encoding into a SAT problem.</li>
 </ul>
-<h3 id="12---petri-nets">1.2 - Petri Nets</h3>
+<h2 id="12---petri-nets">1.2 - Petri Nets</h2>
 <p><em>Petri nets</em>, also called <em>Place/Transition (P/T) nets</em>, are a mathematical model of concurrent systems defined by Carl Adam Petri. The idea is to describe the state of a system using <em>places</em>, containing tokens. A change of state of the system is represented by <em>transitions</em>. Places are connected to transitions by <em>arcs</em>. If a condition on the number of tokens in the <em>inputs places</em> is met, the transition can <em>fire</em>, in this case some tokens are removed from the <em>input places</em>, and some are added to the <em>output places</em>. Basically, places are a representation of the states, conditions, and resources of a system, while transitions symbolize actions. A complete formalization of Petri nets can be found in <a href="http://people.disim.univaq.it/~adimarco/teaching/bioinfo15/paper.pdf" target="_blank" rel="noopener">[Murata, 1989]</a>; see also the online resources at the <a href="https://www2.informatik.uni-hamburg.de/TGI/PetriNets/index.php" target="_blank" rel="noopener">Petri Nets world</a>.</p>
 <br />
 <p align="center">
@@ -961,7 +998,7 @@
     <img src="./net.png" alt="Logo" width="397" height="281">
   </a>
 </p>
-<h4 id="121---syntax">1.2.1 - Syntax</h4>
+<h3 id="121---syntax">1.2.1 - Syntax</h3>
 <p>A Petri net $N$ is a 4-tuple $(P, T, \mathrm{Pre}, \mathrm{Post})$ where:</p>
 <ul>
 <li>$P = {p_1, \dots, p_n}$ is a finite set of places,</li>
@@ -969,21 +1006,21 @@
 <li>$\mathrm{Pre} : T \rightarrow (P \rightarrow \mathbb{N})$ is the pre-condition function,</li>
 <li>$\mathrm{Post} : T \rightarrow (P \rightarrow \mathbb{N})$ is the post-condition function.</li>
 </ul>
-<h4 id="122---useful-notations">1.2.2 - Useful Notations</h4>
+<h3 id="122---useful-notations">1.2.2 - Useful Notations</h3>
 <p>The <em>pre-set</em> of a transition $t \in T$ is denoted ${}^{\bullet} t = {p \in P \mid \mathrm{Pre}(t,p) &gt; 0 }$. Symetrically, the <em>post-set</em> of a transition $t$ is denoted $t^{\bullet} = { p \in P \mid \mathrm{Post}(t,p) &gt; 0 }$. The mappings $\mathrm{Pre}(t,p)$ and $\mathrm{Post}(t,p)$ define the weight of arcs between $p$ and $t$. A Petri net is called <em>ordinary</em> when the (non-zero) weights on all arcs are equal to $1$.</p>
 <p>These notations can be extended to the <em>pre-set</em> and <em>post-set</em> of a place $p$, with ${}^{\bullet} p = { t \in T \mid \mathrm{Post} (t,p) &gt; 0 }$ and $p^{\bullet} = { t \in T \mid \mathrm{Pre}(t,p) &gt; 0 }$.</p>
 <p>Given a set of constants $A$, we define the set of <em>finite sequences</em> on $A$ to be the free monoid $A^\star$, where $\epsilon$ stands for the &ldquo;empty sequence&rdquo;. We will use $s \cdot s&rsquo;$ for the concatenation operation between sequences, that we should often write $s, s&rsquo;$.</p>
-<h4 id="123---markings-and-reachability-set">1.2.3 - Markings and Reachability Set</h4>
+<h3 id="123---markings-and-reachability-set">1.2.3 - Markings and Reachability Set</h3>
 <p>A marking of a Petri net $(P, T, \mathrm{Pre}, \mathrm{Post})$ is a mapping $m : P \rightarrow \mathbb{N}$, which assigns a number of tokens to each place. Hence $m(p)$ is the number of tokens for place $p$ in $m$. We say that $m$ is a marking over $N$, or even simply a marking over $P$.</p>
 <p>A marked Petri net is a tuple $(N, m_0)$ where $N$ is a Petri net and $m_0$ is the initial marking.</p>
 <p>A transition $t \in T$ is <em>fireable</em> or <em>enabled</em> in a marking $m \in \mathbb{N}^P$, denoted $m \xrightarrow{t}$, if and only if $m(p) \ge \mathrm{Pre}(t,p)$ for all place $p$ in ${}^{\bullet}t$.</p>
 <p>A marking $m&rsquo; \in \mathbb{N}^P$ is reachable from a marking $m \in \mathbb{N}^P$ by firing transition $t$, denoted $m \xrightarrow{t} m&rsquo;$, if: (1) transition $t$ is enabled at $m$; and (2) for all place $p$ in P, we have $m&rsquo;(p) = m(p) - \mathrm{Pre}(t,p) + \mathrm{Post}(t,p)$.</p>
-<p>We say that a <em>firing sequence</em> $\sigma = t_1, \dots, t_n \in T^*$ can be fired from an initial marking $m_0$, denoted $m_0 \xRightarrow{\sigma} m$, if there exists markings $m_1, \dots, m_n$ such that $m = m_n$ and $m_i \xrightarrow{t_{i+1}}m_{i+1}$ for all $i \in 1..n$. We denote $R(N, m_0)$ the set of markings reachable from $m_0$ in the net $N$.</p>
-<h4 id="124---classification-safe-nets">1.2.4 - Classification: Safe Nets</h4>
+<p>We say that a <em>firing sequence</em> $\sigma = t_1, \dots, t_n \in T^*$ can be fired from an initial marking $m_0$, denoted $m_0 \xrightarrow{\sigma} m$, if there exists markings $m_1, \dots, m_n$ such that $m = m_n$ and $m_i \xrightarrow{t_{i+1}}m_{i+1}$ for all $i \in 1..n$. We denote $R(N, m_0)$ the set of markings reachable from $m_0$ in the net $N$.</p>
+<h3 id="124---classification-safe-nets">1.2.4 - Classification: Safe Nets</h3>
 <p>A marked Petri net $(N, m_0)$ is called <em>safe</em> when, for all reachable marking $m$ (in $R(N, m_0)$) we have $m(p) \le 1$ for all places $p$ in $P$. In other words, for all reachable markings, the marking of a place is always bounded by $1$.</p>
 <h3 id="125---graphical-syntax">1.2.5 - Graphical syntax</h3>
 <p>A Petri net can be represented graphically: places are represented by circles, transitions by squares, and arcs by arrows.  Black dots inside a place are used to represent tokens in the marking of a place. In our example, transition $t_0$ is fireable, because place $p_0$ has a token.</p>
-<h3 id="13---reachability-formulas">1.3 - Reachability Formulas</h3>
+<h2 id="13---reachability-formulas">1.3 - Reachability Formulas</h2>
 <p>We are interested in the verification of <em>safety properties</em> over the reachable markings of a marked net $(N, m_0)$, with set of places $P$. Given a formula $F$ with variables in $P$, we say that $F$ is reachable if there exists at least one reachable marking, $m \in R(N, m_0)$, such that $m \models F$. We call such marking a <em>witness</em> of $F$. Conversly, a formula $G$ is said <em>invariant</em> if it holds on all the reachable markings of $(N, m_0)$ (or, equivalently, if $\neg G$ is not reachable). Example of properties we can express in this way include: checking if some transition $t$ is enabled (commonly known as quasi-liveness); checking if there is a deadlock; checking whether some linear invariant between places is always true; etc.</p>
 <h1 id="2-instructions">2. Instructions</h1>
 <p>In the <code>usmpt/</code> directory you will find all the Python code to build your own model-checker. The parsers and data-structure are already written. Of course, you can modify any part of the code if you feel the need.</p>
@@ -1135,7 +1172,7 @@ return T
 </blockquote>
 </td></tr></table>
 <hr>
-<h2 id="appendix-using-the-z3-interface-with-the-smt-lib-format">Appendix: Using the z3 interface with the SMT-LIB Format</h2>
+<h1 id="appendix-using-the-z3-interface-with-the-smt-lib-format">Appendix: Using the z3 interface with the SMT-LIB Format</h1>
 <p>SMT-LIB (Satisfiability Modulo Theories LIBrary) is an interface language intended for use by programs designed to solve SMT (Satisfiability Modulo Theories) problems. You can find a complete documentation on the <a href="https://smtlib.cs.uiowa.edu/papers/smt-lib-reference-v2.6-r2021-05-12.pdf" target="_blank" rel="noopener">official website</a>.</p>
 <p>Given a <code>z3</code> object (attribute <code>solver</code> in any <code>AbstractChecker</code> object) you can use several helper methods:</p>
 <ul>

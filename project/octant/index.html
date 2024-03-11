@@ -34,7 +34,7 @@
   
     
   
-  <meta name="description" content="A tool to project Petri nets reachability properties.">
+  <meta name="description" content="A tool to project Petri net reachability properties on reduced nets using polyhedral reduction.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://nicolasAmat.github.io/project/octant/">
@@ -258,8 +258,8 @@
   
 
   <link rel="manifest" href="/index.webmanifest">
-  <link rel="icon" type="image/png" href="/images/icon_huc24f511e683ccfafca4c4af3b08000be_143249_32x32_fill_lanczos_center_3.png">
-  <link rel="apple-touch-icon" type="image/png" href="/images/icon_huc24f511e683ccfafca4c4af3b08000be_143249_192x192_fill_lanczos_center_3.png">
+  <link rel="icon" type="image/png" href="/images/icon_hu436cba8eaa891805a4e938a52637e587_34035_32x32_fill_lanczos_center_3.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu436cba8eaa891805a4e938a52637e587_34035_192x192_fill_lanczos_center_3.png">
 
   <link rel="canonical" href="https://nicolasAmat.github.io/project/octant/">
 
@@ -277,12 +277,14 @@
   
   <meta property="og:site_name" content="Nicolas Amat">
   <meta property="og:url" content="https://nicolasAmat.github.io/project/octant/">
-  <meta property="og:title" content="Octant | Nicolas Amat">
-  <meta property="og:description" content="A tool to project Petri nets reachability properties."><meta property="og:image" content="https://nicolasAmat.github.io/project/octant/featured.png">
+  <meta property="og:title" content="Octant - The Reachability Formula Projector | Nicolas Amat">
+  <meta property="og:description" content="A tool to project Petri net reachability properties on reduced nets using polyhedral reduction."><meta property="og:image" content="https://nicolasAmat.github.io/project/octant/featured.png">
   <meta property="twitter:image" content="https://nicolasAmat.github.io/project/octant/featured.png"><meta property="og:locale" content="en-us">
   
     
+      <meta property="article:published_time" content="2023-12-03T00:00:00&#43;00:00">
     
+    <meta property="article:modified_time" content="2023-12-03T00:00:00&#43;00:00">
   
 
   
@@ -306,14 +308,14 @@
     "@type": "WebPage",
     "@id": "https://nicolasAmat.github.io/project/octant/"
   },
-  "headline": "Octant",
+  "headline": "Octant - The Reachability Formula Projector",
   
   "image": [
     "https://nicolasAmat.github.io/project/octant/featured.png"
   ],
   
-  "datePublished": "0001-01-01T00:00:00Z",
-  "dateModified": "0001-01-01T00:00:00Z",
+  "datePublished": "2023-12-03T00:00:00Z",
+  "dateModified": "2023-12-03T00:00:00Z",
   
   "author": {
     "@type": "Person",
@@ -325,10 +327,10 @@
     "name": "Nicolas Amat",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://nicolasAmat.github.io/images/icon_huc24f511e683ccfafca4c4af3b08000be_143249_192x192_fill_lanczos_center_3.png"
+      "url": "https://nicolasAmat.github.io/images/icon_hu436cba8eaa891805a4e938a52637e587_34035_192x192_fill_lanczos_center_3.png"
     }
   },
-  "description": "A tool to project Petri nets reachability properties."
+  "description": "A tool to project Petri net reachability properties on reduced nets using polyhedral reduction."
 }
 </script>
 
@@ -346,7 +348,7 @@
 
 
 
-  <title>Octant | Nicolas Amat</title>
+  <title>Octant - The Reachability Formula Projector | Nicolas Amat</title>
 
 </head>
 
@@ -541,7 +543,44 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#projects"><span>Projects</span></a>
+          <a class="nav-link " href="/#projects"><span>Softwares</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#open-science"><span>Open science</span></a>
         </li>
 
         
@@ -652,7 +691,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#academic"><span>Academic</span></a>
+          <a class="nav-link " href="/#academic"><span>Service</span></a>
         </li>
 
         
@@ -844,7 +883,7 @@
 
 
 <div class="article-container pt-3">
-  <h1>Octant</h1>
+  <h1>Octant - The Reachability Formula Projector</h1>
 
   
 
@@ -862,7 +901,7 @@
     
       
     
-    Jan 1, 0001
+    Dec 3, 2023
   </span>
   
 
@@ -960,7 +999,7 @@
   <div class="article-container">
 
     <div class="article-style">
-      <h2 id="about">About</h2>
+      <h1 id="about">About</h1>
 <p>Octant is a pre-processor that can be used to accelerate the verification of
 generalized reachability properties on Petri nets. It takes advantage of
 <em>structural reductions</em> and work by projecting an <em>initial reachability
@@ -971,14 +1010,14 @@ projection</a> proposed by
 Leonardo da Vinci in 1508; the first known example of a polyhedral map
 projection.</p>
 <p>This project was initially developed inside <a href="https://github.com/lebotlan/tipx" target="_blank" rel="noopener">TiPX</a>, a Petri net explorer.</p>
-<h2 id="installation">Installation</h2>
+<h1 id="installation">Installation</h1>
 <p>You can build an executable by compiling the project from its source, using the
 accompanying <code>Makefile</code>. The tool is written in OCaml and uses the Dune build
 system. You can also download the latest build of the tool, compiled for Linux,
 called
 <a href="https://github.com/nicolasAmat/Octant/blob/linux/octant.exe" target="_blank" rel="noopener"><code>octant.exe</code></a>, on
 the &ldquo;linux&rdquo; branch of the repository</p>
-<h2 id="running-the-tool">Running the tool</h2>
+<h1 id="running-the-tool">Running the tool</h1>
 <pre><code>./octant.exe command1 command2 ... commandn
 </code></pre>
 <p>Octant is a CLI tool that operates over its parameters as if they were a
@@ -995,33 +1034,37 @@ arguments from the stack and/or from the command-line.</p>
 <li>name =&gt; formula</li>
 <li>name =&gt; bundle (that is: a Petri net, an initial marking, and possibly a tfg).</li>
 </ul>
-<h3 id="environment">Environment</h3>
+<h2 id="environment">Environment</h2>
 <p><code>load        : r -&gt; 0</code>    - (implicit) -  Load the given Petri net, put it as a bundle in the environment with the name &rsquo;net&rsquo;. E.g.: load &ldquo;file.net&rdquo;.<br>
 <code>bind        : rp -&gt; 0</code>   -  Binds the element on the stack to the given name. E.g.: bind special-net.<br>
 <code>set         : rp -&gt; 0</code>   -  Synonym to bind.<br>
 <code>get         : r -&gt; 1</code>    - (implicit) -  Gets the element associated to the given identifier in the environment. Pushes it. E.g.: get special-net.</p>
-<h3 id="formulas">Formulas</h3>
+<h2 id="formulas">Formulas</h2>
 <p><code>form        : r -&gt; 1</code>    -  Parse and push the given formula(s) on the stack (as a list). The reference bundle is the last found in the environment.<br>
 <code>load-forms  : r -&gt; 1</code>    -  Read formulas from the given file and push them on the stack (as a list). The reference bundle is the last found in the environment.<br>
 <code>project     : p -&gt; 1</code>    -  Projects a list of formulas (popped from the stack). The reference bundle must have a tfg. Pushes the resulting list of formulas.<br>
 <code>tproject    : rp -&gt; 1</code>   -  Projects with a time limit.</p>
-<h3 id="display">Display</h3>
+<h2 id="display">Display</h2>
 <p><code>quiet       :  -&gt; 0</code>     -  Quiet mode (prints only necessary information, e.g. verdicts).<br>
 <code>smt-format  :  -&gt; 0</code>     -  Use smt-lib format when printing formulas.<br>
 <code>print       : p -&gt; 0</code>    -  Pops and prints the topmost stack element.<br>
 <code>fprint      : p -&gt; 0</code>    -  Full print: print the topmost stack element, with details.<br>
 <code>nl          :  -&gt; 0</code>     -  Prints a blank line (separator).</p>
-<h3 id="others">Others</h3>
+<h2 id="others">Others</h2>
 <p><code>time        :  -&gt; 0</code>     -  Prints the delay since the previous time command. The first time command does not print anything.<br>
 <code>dup         : p -&gt; 2</code>    -  Duplicate the argument on top of the stack.<br>
 <code>pop         : p -&gt; 0</code>    -  Discards the topmost stack element.<br>
 <code>help        :  -&gt; 0</code>     -  Display this help.</p>
-<h2 id="dependencies">Dependencies</h2>
+<h1 id="references">References</h1>
+<ul>
+<li>Amat, N, Le Botlan, D, Dal Zilio, S. Project and Conquer: Fast Quantifier Elimination for Checking Petri Nets Reachability. <em>International Conference on Verification, Model Checking, and Abstract Interpretation (VMCAI), To appear.</em> 2024.</li>
+</ul>
+<h1 id="dependencies">Dependencies</h1>
 <p>The code repository includes OCaml libraries developed by Didier Le Botlan (outside this project) located inside folder <code>lib/</code>.</p>
-<h2 id="license">License</h2>
+<h1 id="license">License</h1>
 <p>This software is distributed under the
 <a href="https://www.gnu.org/licenses/gpl-3.0.en.html" target="_blank" rel="noopener">GPLv3</a> license.</p>
-<h2 id="authors">Authors</h2>
+<h1 id="authors">Authors</h1>
 <ul>
 <li>Nicolas Amat - LAAS/CNRS</li>
 <li>Didier Le Botlan - LAAS/CNRS</li>
@@ -1155,15 +1198,15 @@ arguments from the stack and/or from the command-line.</p>
     <h3>Related</h3>
     <ul>
       
+      <li><a href="/project/smpt/">SMPT - Satisfiability Modulo Petri Nets</a></li>
+      
+      <li><a href="/project/kong/">Kong - The Koncurrent Places Grinder</a></li>
+      
+      <li><a href="/project/reductron/">Reductron - The Polyhedral Abstraction Prover</a></li>
+      
       <li><a href="/publication/topnoc/">A Toolchain to Compute Concurrent Places of Petri Nets</a></li>
       
       <li><a href="/publication/fm_2023/">SMPT: A Testbed for Reachability Methods in Generalized Petri Nets</a></li>
-      
-      <li><a href="/publication/fi/">A Polyhedral Abstraction for Petri nets and its Application to SMT-Based Model Checking</a></li>
-      
-      <li><a href="/publication/tacas_2022/">Property Directed Reachability for Generalized Petri Nets</a></li>
-      
-      <li><a href="/publication/petri_nets_2021/">On the Combination of Polyhedral Abstraction and SMT-Based Model Checking for Petri Nets</a></li>
       
     </ul>
   </div>
@@ -1241,6 +1284,14 @@ arguments from the stack and/or from the command-line.</p>
 
 
 
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/slides/VMCAI_2024.pdf" target="_blank" rel="noopener">
+  Slides
+</a>
 
 
 
