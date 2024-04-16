@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Model Checking Contest | Nicolas Amat</title>
+    <link>https://nicolasAmat.github.io/tag/model-checking-contest/</link>
+      <atom:link href="https://nicolasAmat.github.io/tag/model-checking-contest/index.xml" rel="self" type="application/rss+xml" />
+    <description>Model Checking Contest</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2024 Nicolas Amat</copyright><lastBuildDate>Mon, 15 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://nicolasAmat.github.io/images/icon_hu436cba8eaa891805a4e938a52637e587_34035_512x512_fill_lanczos_center_3.png</url>
+      <title>Model Checking Contest</title>
+      <link>https://nicolasAmat.github.io/tag/model-checking-contest/</link>
+    </image>
+    
+    <item>
+      <title>Behind the Scene of the Model Checking Contest, Analysis of Results from 2018 to 2023</title>
+      <link>https://nicolasAmat.github.io/publication/toolympics/</link>
+      <pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://nicolasAmat.github.io/publication/toolympics/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

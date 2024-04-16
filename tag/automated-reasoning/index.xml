@@ -5,12 +5,20 @@
     <link>https://nicolasAmat.github.io/tag/automated-reasoning/</link>
       <atom:link href="https://nicolasAmat.github.io/tag/automated-reasoning/index.xml" rel="self" type="application/rss+xml" />
     <description>Automated reasoning</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2024 Nicolas Amat</copyright><lastBuildDate>Sat, 27 May 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2024 Nicolas Amat</copyright><lastBuildDate>Tue, 16 Apr 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://nicolasAmat.github.io/images/icon_hu436cba8eaa891805a4e938a52637e587_34035_512x512_fill_lanczos_center_3.png</url>
       <title>Automated reasoning</title>
       <link>https://nicolasAmat.github.io/tag/automated-reasoning/</link>
     </image>
+    
+    <item>
+      <title>On the Complexity of Proving Polyhedral Reductions</title>
+      <link>https://nicolasAmat.github.io/publication/fi_2024/</link>
+      <pubDate>Tue, 16 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://nicolasAmat.github.io/publication/fi_2024/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Automated Polyhedral Abstraction Proving</title>

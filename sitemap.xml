@@ -2,31 +2,49 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://nicolasAmat.github.io/publication-type/1/</loc>
-    <lastmod>2024-01-15T00:00:00+00:00</lastmod>
+    <loc>https://nicolasAmat.github.io/publication-type/2/</loc>
+    <lastmod>2024-04-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nicolasAmat.github.io/tag/abstraction-techniques/</loc>
+    <lastmod>2024-04-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nicolasAmat.github.io/tag/automated-reasoning/</loc>
+    <lastmod>2024-04-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nicolasAmat.github.io/</loc>
-    <lastmod>2024-01-15T00:00:00+00:00</lastmod>
+    <lastmod>2024-04-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nicolasAmat.github.io/publication/fi_2024/</loc>
+    <lastmod>2024-04-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nicolasAmat.github.io/tag/petri-nets/</loc>
+    <lastmod>2024-04-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nicolasAmat.github.io/publication_types/</loc>
+    <lastmod>2024-04-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nicolasAmat.github.io/publication/</loc>
+    <lastmod>2024-04-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nicolasAmat.github.io/tag/reachability-problems/</loc>
+    <lastmod>2024-04-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nicolasAmat.github.io/tags/</loc>
+    <lastmod>2024-04-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nicolasAmat.github.io/publication/toolympics/</loc>
+    <lastmod>2024-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nicolasAmat.github.io/tag/model-checking-contest/</loc>
+    <lastmod>2024-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nicolasAmat.github.io/publication-type/1/</loc>
     <lastmod>2024-01-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nicolasAmat.github.io/publication/vmcai_2024/</loc>
     <lastmod>2024-01-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nicolasAmat.github.io/publication_types/</loc>
-    <lastmod>2024-01-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://nicolasAmat.github.io/publication/</loc>
-    <lastmod>2024-01-15T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://nicolasAmat.github.io/tag/quantifier-elimination/</loc>
-    <lastmod>2024-01-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://nicolasAmat.github.io/tag/reachability-problems/</loc>
-    <lastmod>2024-01-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://nicolasAmat.github.io/tags/</loc>
     <lastmod>2024-01-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nicolasAmat.github.io/publication-type/7/</loc>
@@ -59,13 +77,7 @@
     <loc>https://nicolasAmat.github.io/talk/</loc>
     <lastmod>2023-10-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nicolasAmat.github.io/publication-type/2/</loc>
-    <lastmod>2023-09-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://nicolasAmat.github.io/publication/topnoc/</loc>
-    <lastmod>2023-09-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://nicolasAmat.github.io/tag/abstraction-techniques/</loc>
     <lastmod>2023-09-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nicolasAmat.github.io/tag/concurrency-theory/</loc>
@@ -84,9 +96,6 @@
     <lastmod>2023-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nicolasAmat.github.io/publication/petri_nets_2023/</loc>
-    <lastmod>2023-05-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://nicolasAmat.github.io/tag/automated-reasoning/</loc>
     <lastmod>2023-05-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nicolasAmat.github.io/talk/afsec_2023/</loc>
